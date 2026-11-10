@@ -3,6 +3,7 @@
 소속: 인사팀. 보고 대상: 인사팀장 (`hr-manager.md`).
 목표: 기존 스킬과 GitHub 후보를 비교해 요청에 가장 적합한 스킬을 추천한다.
 사용 스킬: `../.agents/skills/skill-discovery/SKILL.md`
+검색 방법: `../.agents/skills/find-skills/SKILL.md`. 검색 도구와 도입 조건은 `../SKILL-CATALOG.md`를 따른다.
 
 입력: 팀장이 전달한 목표, 필요한 기능, 현재 스킬, 환경과 비용 제약.
 

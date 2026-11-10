@@ -58,6 +58,9 @@
 - 인사팀장: `hr-team/agents/hr-manager.md`, `hr-team/.agents/skills/agent-skill-management/SKILL.md`
 - 스킬 탐색 담당: `hr-team/agents/skill-scout.md`, `hr-team/.agents/skills/skill-discovery/SKILL.md`
 - 에이전트 제작 담당: `hr-team/agents/agent-builder.md`, `hr-team/.agents/skills/agent-building/SKILL.md`
+- 탐색 담당의 외부 검색 스킬: `hr-team/.agents/skills/find-skills/SKILL.md`
+- 제작 담당의 외부 스킬 제작·검증: `hr-team/.agents/skills/skill-creator/SKILL.md`
+- 제작 담당의 외부 스킬 설치: `hr-team/.agents/skills/skill-installer/SKILL.md`
 - 편집장: `agents/editor.md`, `.agents/skills/stock-editorial/SKILL.md`
 - 리서처: `agents/researcher.md`, `.agents/skills/stock-research/SKILL.md`
 - 작가: `agents/writer.md`, `.agents/skills/stock-writing/SKILL.md`
@@ -68,6 +71,14 @@
 단순 설명이나 작은 문구 수정은 팀장이 처리할 수 있다. 서브 에이전트 실행이 불가능하면 팀장이 역할별로 진행하고 그 사실을 밝힌다. 실행하지 않은 담당자가 일한 것처럼 보고하지 않는다.
 역할 지침의 저장과 현재 작업을 위한 서브 에이전트 실행을 구분한다. 새로 제작한 에이전트의 소속과 보고 대상은 요청 목적에 따라 정하며, 제작 담당자의 부하로 자동 편입하지 않는다.
 로컬 스킬이 자동 발견되지 않는 세션에서는 위 경로를 직접 읽어 적용한다. hr-team 폴더 아래의 중첩된 스킬도 같은 방식으로 직접 읽는다.
+
+### 외부 스킬 적용 기준
+- 도입 비교와 사용 조건은 `hr-team/SKILL-CATALOG.md`, 원본 커밋과 파일 해시는 hr-team/skill-sources.json에 기록한다. 외부 원본과 라이선스를 보존한다.
+- 스킬 탐색은 find-skills의 방법을 사용하고 프로젝트 적합성·중복 평가와 인계는 skill-discovery가 담당한다. GitHub 커넥터가 충분하면 이를 우선 사용한다.
+- 스킬 파일 자체를 제작·수정할 때 skill-creator를 적용한다. 에이전트의 소속·역할·프롬프트 구성은 agent-building이 담당한다.
+- 외부 스킬을 가져올 때 skill-installer를 적용하되 사용자 요청대로 설치 대상은 `hr-team/.agents/skills/`로 한정하고 확인한 커밋을 지정한다. 전역 설치 예시는 이 프로젝트의 기본값으로 사용하지 않는다.
+- installer의 전역 설치 목록과 다음 턴 자동 발견 안내는 중첩 폴더의 설치·활성화 근거로 삼지 않는다. 인사팀 폴더와 실제 실행 도구를 확인한다.
+- Vercel 검색 CLI는 별도 도구다. 사용 시 검토한 버전을 지정하고, 예시 인기 수치를 실제 수치처럼 보고하지 않는다. 검색 결과 0건은 네트워크 실패 여부를 확인한 뒤 해석한다.
 
 ## 인사팀의 업무 분배
 1. 인사팀장이 회장님의 목표를 필요한 기능과 산출물로 정리하고 현재 보유 스킬을 확인한다.
@@ -97,6 +108,6 @@
 - 사용자가 요청한 작업 범위 안에서 진행한다. 원고 작성 요청만으로 외부 블로그 발행이나 메시지 전송을 하지 않는다.
 
 ## 준비 상태
-인사팀장과 인사팀 담당자 2개, 블로그 실무 역할 4개의 역할 지침 및 로컬 스킬 7개를 마련했다.
+역할 지침 7개와 스킬 10개를 마련했다. 인사팀은 자체 운영 스킬 3개와 GitHub에서 가져온 외부 스킬 3개, 블로그 실무팀은 스킬 4개를 사용한다.
 외부 금융 데이터 연결, 유료 데이터, 발행 계정, 자동화 일정은 설정하지 않았다.
 실제 조사 때 사용 가능한 도구와 자료 접근을 확인하고, 접근하지 못한 자료는 미확인으로 남긴다.

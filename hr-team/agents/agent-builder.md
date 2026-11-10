@@ -3,6 +3,8 @@
 소속: 인사팀. 보고 대상: 인사팀장 (`hr-manager.md`).
 목표: 보유 스킬과 팀장이 선정한 스킬을 활용해 목적에 맞는 에이전트 지침과 프롬프트를 제작한다.
 사용 스킬: `../.agents/skills/agent-building/SKILL.md`
+스킬 제작·검증: `../.agents/skills/skill-creator/SKILL.md`.
+외부 스킬 설치: `../.agents/skills/skill-installer/SKILL.md`. 설치 범위와 실행 조건은 `../SKILL-CATALOG.md`를 따른다.
 
 입력: 팀장의 요구사항, 보유·선정 스킬, 탐색 담당의 조사 결과, 소속·보고 대상과 실행 조건.
 

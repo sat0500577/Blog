@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "imported_on": "2026-11-10",
+  "path_base": "repository_root",
+  "upstream_files_modified": false,
+  "skills": [
+    {
+      "name": "skill-creator",
+      "repository": "https://github.com/openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_path": "skills/.system/skill-creator",
+      "source_url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.system/skill-creator",
+      "local_path": "hr-team/.agents/skills/skill-creator",
+      "license": {
+        "spdx": "Apache-2.0",
+        "local_path": "hr-team/.agents/skills/skill-creator/LICENSE.txt"
+      },
+      "original_files": [
+        {
+          "path": "LICENSE.txt",
+          "source_path": "skills/.system/skill-creator/LICENSE.txt",
+          "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "git_mode": "100644",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/.system/skill-creator/SKILL.md",
+          "git_blob_sha": "72bc0b97e7a6476254a9d5c424c9971748402ec3",
+          "git_mode": "100644",
+          "sha256": "a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_path": "skills/.system/skill-creator/agents/openai.yaml",
+          "git_blob_sha": "f5ce09ed118b72908b7308fcfc1619f59e89f6ea",
+          "git_mode": "100644",
+          "sha256": "fcc3ba02bdf8d6df1f891637cf5336d2d7ef87bb8910fa622bd150c8e0d4c55b"
+        },
+        {
+          "path": "references/openai_yaml.md",
+          "source_path": "skills/.system/skill-creator/references/openai_yaml.md",
+          "git_blob_sha": "da5629f8de500ec6f81291d239a2d9c68d1d9044",
+          "git_mode": "100644",
+          "sha256": "9fb5928b7f4a746fdb39df503ebbd7a659d5e64b47f85a60626aa1a03fd76b17"
+        },
+        {
+          "path": "scripts/generate_openai_yaml.py",
+          "source_path": "skills/.system/skill-creator/scripts/generate_openai_yaml.py",
+          "git_blob_sha": "1a9d784f8704999daf55a2b9036094949d9af3f8",
+          "git_mode": "100644",
+          "sha256": "b8f6be33a9d72dd7a8da02e7a9fffea23dc79e94862e6dd6358b57a8899d8f73"
+        },
+        {
+          "path": "scripts/init_skill.py",
+          "source_path": "skills/.system/skill-creator/scripts/init_skill.py",
+          "git_blob_sha": "f90703eca8159a21a9684ed1df974c702d92f814",
+          "git_mode": "100644",
+          "sha256": "bcb8982d3f033a094f2f1be43123ac8537e2562d25d8ba4d8ef2196ae514d96d"
+        },
+        {
+          "path": "scripts/quick_validate.py",
+          "source_path": "skills/.system/skill-creator/scripts/quick_validate.py",
+          "git_blob_sha": "0547b4041a5f58fa19892079a114a1df98286406",
+          "git_mode": "100644",
+          "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51"
+        }
+      ],
+      "additional_files": []
+    },
+    {
+      "name": "skill-installer",
+      "repository": "https://github.com/openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_path": "skills/.system/skill-installer",
+      "source_url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.system/skill-installer",
+      "local_path": "hr-team/.agents/skills/skill-installer",
+      "license": {
+        "spdx": "Apache-2.0",
+        "local_path": "hr-team/.agents/skills/skill-installer/LICENSE.txt"
+      },
+      "original_files": [
+        {
+          "path": "LICENSE.txt",
+          "source_path": "skills/.system/skill-installer/LICENSE.txt",
+          "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "git_mode": "100644",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/.system/skill-installer/SKILL.md",
+          "git_blob_sha": "8ca23bf833379d2272a0a67e0026c2709b8823f1",
+          "git_mode": "100644",
+          "sha256": "83b31cffb2552a923f4152f0338bea548274accc5489d151a95bced8e7bcfb74"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_path": "skills/.system/skill-installer/agents/openai.yaml",
+          "git_blob_sha": "88d40cd9468441cfc83ffed52f9d71867392b850",
+          "git_mode": "100644",
+          "sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e"
+        },
+        {
+          "path": "assets/skill-installer-small.svg",
+          "source_path": "skills/.system/skill-installer/assets/skill-installer-small.svg",
+          "git_blob_sha": "ccfc034241ae8e6bea7284e188aed142a67c53e9",
+          "git_mode": "100644",
+          "sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e"
+        },
+        {
+          "path": "assets/skill-installer.png",
+          "source_path": "skills/.system/skill-installer/assets/skill-installer.png",
+          "git_blob_sha": "5dbcfcf66dfdde4c8d755f070758371316e30b0f",
+          "git_mode": "100644",
+          "sha256": "a3a31e72c3a8b753893a9ca9bad4a99ceb38efd6f6c3e0f98a38873256d3b36c"
+        },
+        {
+          "path": "scripts/github_utils.py",
+          "source_path": "skills/.system/skill-installer/scripts/github_utils.py",
+          "git_blob_sha": "711f597e4cf0c08b897083c1c337e13524a76260",
+          "git_mode": "100644",
+          "sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b"
+        },
+        {
+          "path": "scripts/install-skill-from-github.py",
+          "source_path": "skills/.system/skill-installer/scripts/install-skill-from-github.py",
+          "git_blob_sha": "1c8ce89d0a4c54f1eb8ec00625e8fc0fa59301ae",
+          "git_mode": "100755",
+          "sha256": "0fbbd36e8ea294442c0bd48d6f610a2e8656216bfef5c322f1dcf448ef2f09f1"
+        },
+        {
+          "path": "scripts/list-skills.py",
+          "source_path": "skills/.system/skill-installer/scripts/list-skills.py",
+          "git_blob_sha": "0977c296ab7723d5fdf9ad9ba05329478ba1fe94",
+          "git_mode": "100755",
+          "sha256": "e4e1f78ca3d045827f2a05cfd99fae57cc7c1a1bfeba8704029108834debff35"
+        }
+      ],
+      "additional_files": []
+    },
+    {
+      "name": "find-skills",
+      "repository": "https://github.com/vercel-labs/skills",
+      "commit": "4e121e6e96c382d8c368a39d24ae272a32746224",
+      "source_path": "skills/find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/tree/4e121e6e96c382d8c368a39d24ae272a32746224/skills/find-skills",
+      "local_path": "hr-team/.agents/skills/find-skills",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/find-skills/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/find-skills/SKILL.md",
+          "git_blob_sha": "a41bdd074bb587afd861332cf2f473f3154de4d7",
+          "git_mode": "100644",
+          "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "source_url": "https://github.com/vercel-labs/skills/blob/4e121e6e96c382d8c368a39d24ae272a32746224/LICENSE",
+          "git_blob_sha": "eabe3008f6c0275929faa8b07d406e82717648cc",
+          "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
+    }
+  ]
+}

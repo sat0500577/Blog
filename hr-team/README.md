@@ -20,17 +20,18 @@
 | 역할 | 역할 지침과 시작 프롬프트 | 사용 스킬 |
 |---|---|---|
 | 인사팀장 | [역할 지침](agents/hr-manager.md) | [분배와 검수](.agents/skills/agent-skill-management/SKILL.md) |
-| 스킬 탐색 담당 | [역할 지침](agents/skill-scout.md) | [스킬 조사와 추천](.agents/skills/skill-discovery/SKILL.md) |
-| 에이전트 제작 담당 | [역할 지침](agents/agent-builder.md) | [스킬 기반 제작](.agents/skills/agent-building/SKILL.md) |
+| 스킬 탐색 담당 | [역할 지침](agents/skill-scout.md) | [후보 평가와 인계](.agents/skills/skill-discovery/SKILL.md), [find-skills](.agents/skills/find-skills/SKILL.md) |
+| 에이전트 제작 담당 | [역할 지침](agents/agent-builder.md) | [에이전트 구성](.agents/skills/agent-building/SKILL.md), [skill-creator](.agents/skills/skill-creator/SKILL.md), [skill-installer](.agents/skills/skill-installer/SKILL.md) |
 
 공통 운영 기준은 [AGENTS.md](../AGENTS.md)를 따릅니다.
 
 ## 이 폴더의 자료
 
 - agents 폴더: 인사팀 에이전트 3개의 역할 지침과 시작 프롬프트
-- .agents/skills 폴더: 인사팀 스킬 3개의 원본
-- GitHub 스킬 후보 비교와 도입 기록
-- 에이전트 제작 요구사항과 검증 결과
-- 프로젝트별 배치 현황과 변경 기록
+- .agents/skills 폴더: 자체 운영 스킬 3개와 외부 스킬 3개
+- [스킬 도입 목록](SKILL-CATALOG.md): 후보 비교, 추천 이유와 사용 조건
+- [원본 출처 기록](skill-sources.json): 고정한 커밋, 라이선스와 파일 해시
+
+이후 에이전트 제작 요구사항, 검증 결과와 프로젝트별 배치 기록도 이 폴더에 정리합니다.
 
 역할 지침과 스킬 원본, 관련 조사·관리 자료를 모두 이 폴더에 모읍니다. 중첩된 스킬이 자동 발견되지 않는 환경에서는 공통 운영 지침에 명시된 경로를 직접 읽어 적용합니다.

@@ -73,6 +73,8 @@
 - 기획팀장 겸 인터뷰 담당: `planning-team/agents/planning-lead.md`, `planning-team/.agents/skills/stock-blog-planning/SKILL.md`
 - 기획서 담당: `planning-team/agents/planning-writer.md`, `planning-team/.agents/skills/stock-blog-planning/SKILL.md`
 - 기획팀의 외부 인터뷰·콘텐츠 전략 스킬: `hr-team/.agents/skills/grilling/SKILL.md`, `hr-team/.agents/skills/content-strategy/SKILL.md`. 원본은 인사팀에서 중앙 관리하고 기획팀이 재사용한다.
+- 기획팀의 경쟁 블로그·독자 조사 스킬: `hr-team/.agents/skills/competitor-profiling/SKILL.md`, `hr-team/.agents/skills/customer-research/SKILL.md`. 실제 출처를 바탕으로 조사하고 기존 content-strategy에 결과를 인계한다.
+- 기획팀의 회의 준비·콘텐츠 캘린더는 연결된 Notion 플러그인의 `notion-meeting-prep`, `notion-plan-marketing-campaigns`를 재사용한다. 사용 분기와 도구 조건은 `planning-team/README.md`를 따르며 로컬 사본을 만들지 않는다.
 - 기획팀 안내와 금융 질문 참고 자료: `planning-team/README.md`. 금융 참고 문서는 별도 실행 스킬이나 데이터 연결로 계산하지 않는다.
 - 인사팀장: `hr-team/agents/hr-manager.md`, `hr-team/.agents/skills/agent-skill-management/SKILL.md`
 - 스킬 탐색 담당: `hr-team/agents/skill-scout.md`, `hr-team/.agents/skills/skill-discovery/SKILL.md`
@@ -99,6 +101,7 @@
 - installer의 전역 설치 목록과 다음 턴 자동 발견 안내는 중첩 폴더의 설치·활성화 근거로 삼지 않는다. 인사팀 폴더와 실제 실행 도구를 확인한다.
 - Vercel 검색 CLI는 별도 도구다. 사용 시 검토한 버전을 지정하고, 예시 인기 수치를 실제 수치처럼 보고하지 않는다. 검색 결과 0건은 네트워크 실패 여부를 확인한 뒤 해석한다.
 - 기획팀은 grilling과 content-strategy의 원문을 읽고 stock-blog-planning으로 적용 범위를 조정한다. 원본의 전체 질문 일괄 제시보다 회장님의 한 번에 1~2개 질문 선호를 우선한다. 마케팅 원문의 구매 전환·비율·예시 수치를 주식 블로그의 목표나 검증된 성과로 단정하지 않는다.
+- competitor-profiling은 경쟁 블로그의 독자·주제·설명 방식·공개 근거 중심으로, customer-research는 실제 독자 질문·댓글·설문 중심으로 적용한다. 관찰·해석·제안을 분리하고 SEO 데이터가 없으면 방문자 수·순위를 만들지 않는다. 가상 독자 발언이나 회장님의 의견을 실제 독자 조사로 표시하지 않는다. 조사 원자료·개인 정보·비공개 회의록은 GitHub에 복제하지 않는다. 외부 스킬의 모집 이메일·사례비·게시 예시는 실행 권한이 아니다.
 
 ## 기획팀의 인터뷰와 기획서 작성
 - “기획팀”, “기획 인터뷰”, “블로그 방향을 정해줘”처럼 운영 방향과 요구사항을 정하는 요청에는 기획팀장 역할과 stock-blog-planning을 적용한다. 단순한 개별 글의 주제·브리프·제목 수정은 기존 편집장 흐름으로 처리한다.
@@ -149,7 +152,7 @@ Notion 자료 접근이 안 되면 읽었다고 보고하지 않는다. 편집�
 - 사용자가 요청한 작업 범위 안에서 진행한다. 원고 작성 요청만으로 외부 블로그 발행이나 메시지 전송을 하지 않는다.
 
 ## 준비 상태
-역할 지침 13개와 로컬 스킬 15개를 마련했다. 인사팀은 자체 운영 스킬 3개와 중앙 관리하는 외부 스킬 5개, 블로그 실무팀은 스킬 4개, 비서실은 스킬 2개, 기획팀은 주식 블로그 맞춤 기획 스킬 1개를 보유한다. 기획팀은 인사팀의 grilling·content-strategy와 기존 주식 스킬을 참조해 재사용한다. 비서실은 최고 비서와 전문 담당 3명, 기획팀은 팀장 겸 인터뷰 담당과 기획서 담당 2명으로 구성한다.
+역할 지침 13개와 로컬 스킬 17개를 마련했다. 인사팀은 자체 운영 스킬 3개와 중앙 관리하는 외부 스킬 7개, 블로그 실무팀은 스킬 4개, 비서실은 스킬 2개, 기획팀은 주식 블로그 맞춤 기획 스킬 1개를 보유한다. 기획팀은 인사팀의 grilling·content-strategy·competitor-profiling·customer-research와 기존 주식 스킬을 참조해 재사용한다. 연결된 Notion 플러그인 스킬은 로컬 개수에 포함하지 않는다. 비서실은 최고 비서와 전문 담당 3명, 기획팀은 팀장 겸 인터뷰 담당과 기획서 담당 2명으로 구성한다.
 비서실 역할과 보고 양식, 요청별 실제 위임 지침을 마련했다. 플러그인 스킬 가용성, 실제 Notion 저장 상태와 작업 실행은 세션의 도구와 결과를 별도로 확인한다.
 외부 금융 데이터 연결, 유료 데이터, 발행 계정, 자동화 일정은 설정하지 않았다.
 실제 조사 때 사용 가능한 도구와 자료 접근을 확인하고, 접근하지 못한 자료는 미확인으로 남긴다.

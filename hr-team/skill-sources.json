@@ -261,6 +261,115 @@
           "reason": "Repository root MIT license preserved alongside the copied skill."
         }
       ]
+    },
+    {
+      "name": "competitor-profiling",
+      "imported_on": "2026-11-11",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "9d6d7ce8d18eb155dc2f9762435f097e60cdad7c",
+      "source_path": "skills/competitor-profiling",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/skills/competitor-profiling",
+      "local_path": "hr-team/.agents/skills/competitor-profiling",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/competitor-profiling/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/competitor-profiling/SKILL.md",
+          "git_blob_sha": "2484b4e85ac6cd2b590fe5e8684bc3572cbe736f",
+          "git_mode": "100644",
+          "sha256": "b043f61ce62b1202352d69e19e8561a0b65faa6ded4750ffc037eb6bfbae0cb0"
+        },
+        {
+          "path": "evals/evals.json",
+          "source_path": "skills/competitor-profiling/evals/evals.json",
+          "git_blob_sha": "e5c2307dc0f293ecb15ddb4b2adad628a6dab807",
+          "git_mode": "100644",
+          "sha256": "89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264"
+        },
+        {
+          "path": "references/templates.md",
+          "source_path": "skills/competitor-profiling/references/templates.md",
+          "git_blob_sha": "0a5ad331fa8393bd97de4e8f3144bf59cd76ecbb",
+          "git_mode": "100644",
+          "sha256": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91"
+        },
+        {
+          "path": "references/tool-reference.md",
+          "source_path": "skills/competitor-profiling/references/tool-reference.md",
+          "git_blob_sha": "bf75822e8a1a86b6664c35de4ebaa9411907bb11",
+          "git_mode": "100644",
+          "sha256": "fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "git_mode": "100644",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "source_url": "https://github.com/coreyhaines31/marketingskills/blob/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
+    },
+    {
+      "name": "customer-research",
+      "imported_on": "2026-11-11",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "9d6d7ce8d18eb155dc2f9762435f097e60cdad7c",
+      "source_path": "skills/customer-research",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/skills/customer-research",
+      "local_path": "hr-team/.agents/skills/customer-research",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/customer-research/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/customer-research/SKILL.md",
+          "git_blob_sha": "bc9f4aadd0431da8a718bc3b69c619950949a94b",
+          "git_mode": "100644",
+          "sha256": "d12b522641884acb385f7a919138b5bfbe4ad9b070bd13a470923eebaa682a4f"
+        },
+        {
+          "path": "evals/evals.json",
+          "source_path": "skills/customer-research/evals/evals.json",
+          "git_blob_sha": "a084bb359c75d9c243e43d726a7bc2bfce39eaeb",
+          "git_mode": "100644",
+          "sha256": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01"
+        },
+        {
+          "path": "references/interviews-and-surveys.md",
+          "source_path": "skills/customer-research/references/interviews-and-surveys.md",
+          "git_blob_sha": "aade5bc6ed6c3f97c50bc03c1b00de8057021f9e",
+          "git_mode": "100644",
+          "sha256": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076"
+        },
+        {
+          "path": "references/source-guides.md",
+          "source_path": "skills/customer-research/references/source-guides.md",
+          "git_blob_sha": "be6fb691d16b6cbdf9d474c9cf52c42104e7e542",
+          "git_mode": "100644",
+          "sha256": "7490a8d04f209d4c8c987530e79d0883a6b42027b86a920fc751cf8ea9904892"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "git_mode": "100644",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "source_url": "https://github.com/coreyhaines31/marketingskills/blob/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
     }
-  ]
+  ],
+  "updated_on": "2026-11-11"
 }

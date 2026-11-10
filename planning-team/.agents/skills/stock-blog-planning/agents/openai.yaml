@@ -1,4 +1,4 @@
 interface:
-  display_name: "주식 블로그 기획 인터뷰"
-  short_description: "회장님과 단계별 인터뷰를 진행하고 실행 가능한 주식 블로그 기획서를 만듭니다"
-  default_prompt: "Use $stock-blog-planning to interview me one or two questions at a time and prepare a stock blog plan from the confirmed answers."
+  display_name: "주식 블로그 기획"
+  short_description: "단계별 인터뷰와 경쟁·독자 조사로 회의 및 콘텐츠 기획 초안을 만듭니다"
+  default_prompt: "Use $stock-blog-planning to prepare a stock blog plan with relevant competitor and reader evidence, asking only one or two questions at a time."

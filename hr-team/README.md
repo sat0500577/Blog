@@ -28,12 +28,12 @@
 ## 이 폴더의 자료
 
 - agents 폴더: 인사팀 에이전트 3개의 역할 지침과 시작 프롬프트
-- .agents/skills 폴더: 자체 운영 스킬 3개와 중앙 관리하는 외부 스킬 5개
+- .agents/skills 폴더: 자체 운영 스킬 3개와 중앙 관리하는 외부 스킬 7개
 - [스킬 도입 목록](SKILL-CATALOG.md): 후보 비교, 추천 이유와 사용 조건
 - [원본 출처 기록](skill-sources.json): 고정한 커밋, 라이선스와 파일 해시
 
 이후 에이전트 제작 요구사항, 검증 결과와 프로젝트별 배치 기록도 이 폴더에 정리합니다.
 
-[기획팀](../planning-team/README.md)은 이 폴더의 [grilling](.agents/skills/grilling/SKILL.md)과 [content-strategy](.agents/skills/content-strategy/SKILL.md)를 참조합니다. 외부 원본은 인사팀이 관리하고, 주식 블로그에 맞춘 질문 방식과 역할 지침은 기획팀에 둡니다.
+[기획팀](../planning-team/README.md)은 이 폴더의 [grilling](.agents/skills/grilling/SKILL.md), [content-strategy](.agents/skills/content-strategy/SKILL.md), [competitor-profiling](.agents/skills/competitor-profiling/SKILL.md), [customer-research](.agents/skills/customer-research/SKILL.md)를 참조합니다. 외부 원본은 인사팀이 관리하고, 주식 블로그에 맞춘 질문·조사 방식과 역할 지침은 기획팀에 둡니다. Notion 회의 준비·콘텐츠 캘린더 스킬은 연결된 플러그인을 재사용하며 복사 설치하지 않습니다.
 
 역할 지침과 스킬 원본, 관련 조사·관리 자료를 모두 이 폴더에 모읍니다. 중첩된 스킬이 자동 발견되지 않는 환경에서는 공통 운영 지침에 명시된 경로를 직접 읽어 적용합니다.

@@ -12,10 +12,38 @@
 
 | 역할 | 담당 | 연결 |
 |---|---|---|
-| [기획팀장](agents/planning-lead.md) | 한 번에 1~2개 질문, 요구 확인, 위임·검수 | [stock-blog-planning](.agents/skills/stock-blog-planning/SKILL.md), [grilling](../hr-team/.agents/skills/grilling/SKILL.md) |
-| [기획서 담당](agents/planning-writer.md) | 방향·주제축·연재·자료 계획·인계 작성 | stock-blog-planning, [content-strategy](../hr-team/.agents/skills/content-strategy/SKILL.md) |
+| [기획팀장](agents/planning-lead.md) | 한 번에 1~2개 질문, 요구 확인, 회의 준비·업무 분배·최종 검수 | [stock-blog-planning](.agents/skills/stock-blog-planning/SKILL.md), [grilling](../hr-team/.agents/skills/grilling/SKILL.md), notion-meeting-prep |
+| [기획서 담당](agents/planning-writer.md) | 방향·주제축·연재, 경쟁 비교·실제 독자 분석, 요청된 캘린더 초안·인계 | stock-blog-planning, [content-strategy](../hr-team/.agents/skills/content-strategy/SKILL.md), 아래 선택 스킬 |
 
 [질문 가이드](.agents/skills/stock-blog-planning/references/interview-guide.md)와 [기획서 양식](.agents/skills/stock-blog-planning/references/planning-brief-template.md)을 사용합니다. 외부 스킬은 인사팀에 보관된 원본을 참조하며 복사 설치하지 않습니다.
+
+## 추가 연결과 실행 조건
+
+| 요청·담당 | 연결 | 입력과 의존 조건 | 결과 |
+|---|---|---|---|
+| 경쟁 블로그 비교·기획서 담당 | [competitor-profiling v2.1.8](../hr-team/.agents/skills/competitor-profiling/SKILL.md) | 대상 URL·범위와 실제 원문 접근. SEO 도구는 선택이며 없으면 관련 수치 미확인 | 독자·주제·설명·원문 근거·발행 구성 비교, 관찰/해석/제안 |
+| 독자 반응 분석·기획서 담당 | [customer-research v2.0.8](../hr-team/.agents/skills/customer-research/SKILL.md) | 실제 인터뷰·댓글·설문 또는 공개 반응의 출처·날짜·문맥. 없으면 가설·수집 계획만 | 근거 있는 독자 요구, 표본 편향·반대 사례·미확인 사항 |
+| 회의 준비·기획팀장 | notion-meeting-prep | 회의 목적과 기존 결정·자료, 알려진 일정. Notion 조회는 활성 플러그인·읽기 도구 필요 | 안건·결정 질문·요청된 사전 자료 |
+| 콘텐츠 캘린더·기획서 담당, 팀장 검수 | notion-plan-marketing-campaigns | 확인된 콘텐츠 기획·운영 여력. 저장 요청에는 실제 쓰기 도구·권한과 대상 필요 | 캘린더 초안, 요청된 저장은 비서실 기존 기록·구성 흐름 재사용 |
+
+외부 두 로컬 스킬은 `coreyhaines31/marketingskills`의 고정 커밋 `9d6d7ce8d18eb155dc2f9762435f097e60cdad7c`를 중앙 관리합니다. 원본·버전·라이선스·파일 해시는 [인사팀 출처 기록](../hr-team/skill-sources.json)을 따릅니다. grilling의 질문 설계와 content-strategy의 방향·주제축 기능을 대체하거나 복제하지 않습니다.
+
+Notion 스킬은 로컬에 복사하지 않고 실행 시 다음 정확한 package를 `skills.read`로 읽습니다. resource는 각 package 뒤에 `/SKILL.md`를 붙입니다. 카탈로그가 달라졌으면 `skills.list`에서 정확한 이름을 찾아 현재 package/resource를 사용하며 `c0` 같은 세션 별칭을 고정하지 않습니다.
+
+- `skill://plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e/notion-meeting-prep`
+- `skill://plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e/notion-plan-marketing-campaigns`
+
+실제 페이지 구성 전에 마케팅 스킬의 `reference/design.md`와 홈을 만들 때 `reference/campaign-layout.md`를 같은 package의 전체 resource 경로로 읽습니다. 다음 회의 선택·후속 태스크 생성이나 1차 독자 조사도 해당 원문이 지정한 참고를 필요한 시점에 읽습니다.
+
+자식 세션에 스킬이나 자료 조회 도구가 없으면 팀장이 원문·필수 참고와 실제 조회 자료를 출처 포함으로 전달합니다. 자식에게 쓰기 도구만 없으면 초안을 반환하고 팀장 또는 비서실 담당 한 명이 저장·재조회합니다. 같은 Notion 대상의 동시 쓰기를 피하고 검수된 자료 → 기록 → 디자인 순서로 인계합니다. 접근할 수 없는 범위를 밝히고 가능한 기획 작업을 계속하며, 이미 승인된 저장은 다시 승인받지 않습니다.
+
+원본의 SaaS 가격·기능 표 대신 주식 블로그 비교 항목을 사용합니다. 원문의 표본 개수 기준만으로 통계적 확신을 주장하지 않으며 가짜 독자 발언·이력을 만들지 않습니다. 비공개 raw 자료와 회의록 본문은 Git에 저장하지 않습니다. 설치 승인은 인터뷰 모집 메일·외부 메시지 발송·실제 회의록 DB 생성·WordPress 공개발행 권한이 아닙니다.
+
+예시:
+
+- “이 블로그 세 곳의 차별점을 비교해줘.” → 기획서 담당이 같은 기준으로 원문을 비교하고 SEO 수치는 연결이 있을 때만 확인합니다.
+- “댓글을 보고 독자들이 어려워하는 부분을 정리해줘.” → 실제 댓글의 출처·문맥을 읽고 제한된 표본의 관찰과 기획 가설을 구분합니다.
+- “회의 안건과 다음 달 콘텐츠 캘린더 초안을 준비해줘.” → 팀장이 회의를 준비하고 담당에게 캘린더 초안을 위임한 뒤 검수합니다. 저장 요청이 없으면 초안을 보고합니다.
 
 ## 진행 방식
 
@@ -39,5 +67,7 @@
 역할과 맞춤 스킬을 구성해 형식·참조·메타데이터 검증 후 요청 시 사용합니다. 실제 회장님 인터뷰부터 기획서 작성까지의 전체 실행은 아직 검증하지 않았습니다. 파일 저장은 전역 등록·상시 실행·모든 채팅의 자동 연결을 의미하지 않습니다. 스킬이 자동 발견되지 않으면 위 경로를 직접 읽습니다.
 
 2026-11-10 검증: 신규 스킬 3개 형식 검사, 원본·라이선스 11개 파일의 고정 Git blob 및 SHA-256 대조, 로컬 참조 검사를 통과했습니다. 가상 입력으로 질문 2개 제한과 기존 답 재사용을 확인했고, 실제 기획서 담당 서브 에이전트에게 순차 위임해 자료·반론·갱신 계획과 확정·제안·미정 구분을 검수했습니다. 테스트 입력과 결과는 실제 블로그 운영 결정으로 저장하지 않았습니다. 실제 사용자 인터뷰, 외부 데이터 분석, Notion 저장·발행은 이 검증에 포함하지 않았습니다.
+
+2026-11-11 확장 검증: 맞춤 스킬 형식·메타데이터·상대 참조와 경쟁 비교/독자 자료 부족/회의·캘린더의 세 분기를 정적으로 검토했습니다. 가상 입력 1회로 기존 확정 방향의 간단한 주제 정리는 네 스킬 전체 호출 없이 처리하고, 미조회 자료와 잠정 일정을 확정하지 않는지 확인했습니다. 실제 경쟁 사이트·독자 데이터 조사, 원고 집필, 회의록 DB 생성, Notion 저장·쓰기, WordPress 발행은 이번 검증에 포함하지 않았습니다.
 
 예시: “기획팀장, 미국 주식 입문자를 위한 블로그를 기획하고 싶어. 필요한 것부터 하나씩 물어봐.”

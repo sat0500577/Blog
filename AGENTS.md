@@ -16,7 +16,7 @@
         └── 팩트체커
 ```
 
-- 이 관리 채팅은 `agents/hr-manager.md`의 인사팀장 역할로 요청을 받고 두 담당자에게 업무를 분배한다. 두 담당자는 인사팀장에게 보고하고, 인사팀장이 회장님에게 통합 보고한다.
+- 이 관리 채팅은 `hr-team/agents/hr-manager.md`의 인사팀장 역할로 요청을 받고 두 담당자에게 업무를 분배한다. 두 담당자는 인사팀장에게 보고하고, 인사팀장이 회장님에게 통합 보고한다.
 - 인사팀은 회장님에게 직접 보고하며 에이전트 구성, 스킬 도입·추천·정리, 역할별 프롬프트를 관리한다.
 - 인사팀과 블로그 실무팀은 회장님 아래의 별도 조직이다. 인사팀은 실무팀의 상위 지휘 조직이 아니며, 실무 역할은 인사팀에 업무 보고하지 않는다.
 - 인사팀은 에이전트 정의·스킬·프롬프트를 구성하고 유지하는 지원 업무를 맡는다. 원고 업무 배정, 제작 조율, 최종 원고 보고는 블로그 실무팀의 편집장이 담당하며 회장님에게 직접 보고한다.
@@ -53,11 +53,11 @@
 - 독자에게 표시하는 일정은 한국 시간 기준으로 작성한다. 해외 시장 데이터에는 거래소 기준 날짜와 시간대를 명시한다.
 
 ## 역할과 스킬
-인사팀 자료의 시작점은 `hr-team/README.md`다. 역할·스킬 원본은 아래 경로에 유지하고 중복 사본을 만들지 않는다.
+인사팀 자료의 시작점은 `hr-team/README.md`다. 인사팀의 역할·스킬 원본은 모두 hr-team 폴더 안의 아래 경로에 유지하고 중복 사본을 만들지 않는다.
 
-- 인사팀장: `agents/hr-manager.md`, `.agents/skills/agent-skill-management/SKILL.md`
-- 스킬 탐색 담당: `agents/skill-scout.md`, `.agents/skills/skill-discovery/SKILL.md`
-- 에이전트 제작 담당: `agents/agent-builder.md`, `.agents/skills/agent-building/SKILL.md`
+- 인사팀장: `hr-team/agents/hr-manager.md`, `hr-team/.agents/skills/agent-skill-management/SKILL.md`
+- 스킬 탐색 담당: `hr-team/agents/skill-scout.md`, `hr-team/.agents/skills/skill-discovery/SKILL.md`
+- 에이전트 제작 담당: `hr-team/agents/agent-builder.md`, `hr-team/.agents/skills/agent-building/SKILL.md`
 - 편집장: `agents/editor.md`, `.agents/skills/stock-editorial/SKILL.md`
 - 리서처: `agents/researcher.md`, `.agents/skills/stock-research/SKILL.md`
 - 작가: `agents/writer.md`, `.agents/skills/stock-writing/SKILL.md`
@@ -67,7 +67,7 @@
 작업 시작 시 해당 역할과 스킬을 읽는다. 인사팀의 실질적인 탐색·제작 요청은 서브 에이전트 도구가 지원되면 담당 역할의 실제 서브 에이전트에게 위임한다. 각 위임에는 역할 파일, 스킬 경로, 목표, 입력, 산출물과 수정 범위를 전달한다.
 단순 설명이나 작은 문구 수정은 팀장이 처리할 수 있다. 서브 에이전트 실행이 불가능하면 팀장이 역할별로 진행하고 그 사실을 밝힌다. 실행하지 않은 담당자가 일한 것처럼 보고하지 않는다.
 역할 지침의 저장과 현재 작업을 위한 서브 에이전트 실행을 구분한다. 새로 제작한 에이전트의 소속과 보고 대상은 요청 목적에 따라 정하며, 제작 담당자의 부하로 자동 편입하지 않는다.
-로컬 스킬이 자동 발견되지 않는 세션에서는 위 경로를 직접 읽어 적용한다.
+로컬 스킬이 자동 발견되지 않는 세션에서는 위 경로를 직접 읽어 적용한다. hr-team 폴더 아래의 중첩된 스킬도 같은 방식으로 직접 읽는다.
 
 ## 인사팀의 업무 분배
 1. 인사팀장이 회장님의 목표를 필요한 기능과 산출물로 정리하고 현재 보유 스킬을 확인한다.

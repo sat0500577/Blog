@@ -5,7 +5,7 @@ description: 인사팀장이 회장님의 스킬·에이전트 요청을 탐색 
 
 # 인사팀 요청 분배와 결과 검수
 
-프로젝트 AGENTS.md와 agents/hr-manager.md를 따른다. 탐색 실무는 skill-discovery, 제작 실무는 agent-building에 맡긴다.
+[프로젝트 공통 지침](../../../../AGENTS.md)과 [인사팀장 역할](../../../agents/hr-manager.md)을 따른다. 탐색 실무는 skill-discovery, 제작 실무는 agent-building에 맡긴다.
 
 1. 요청의 목표, 필요한 기능, 원하는 산출물과 기존 자산을 확인한다.
 2. 탐색·추천은 스킬 탐색 담당, 제작·수정·프롬프트는 에이전트 제작 담당에게 배정한다. 실제 서브 에이전트 위임 시 각 역할 파일과 스킬을 읽도록 지시한다.

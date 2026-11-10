@@ -5,7 +5,7 @@ description: 에이전트 제작 담당이 보유·선정 스킬로 역할 지�
 
 # 스킬 기반 에이전트 제작
 
-프로젝트 AGENTS.md와 agents/agent-builder.md를 따른다. 탐색·비교는 skill-discovery, 최종 선정과 통합 보고는 agent-skill-management가 담당한다.
+[프로젝트 공통 지침](../../../../AGENTS.md)과 [에이전트 제작 담당 역할](../../../agents/agent-builder.md)을 따른다. 탐색·비교는 skill-discovery, 최종 선정과 통합 보고는 agent-skill-management가 담당한다.
 
 1. 목표와 요구 기능, 선정 스킬의 실제 내용을 읽는다. 기능별로 어떤 스킬을 사용하는지 연결한다.
 2. 소속과 보고 대상, 역할 범위, 입력, 수행 단계, 출력 형식, 완료 기준, 필요한 데이터와 도구를 명시한다.

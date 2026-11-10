@@ -53,6 +53,8 @@
 - 독자에게 표시하는 일정은 한국 시간 기준으로 작성한다. 해외 시장 데이터에는 거래소 기준 날짜와 시간대를 명시한다.
 
 ## 역할과 스킬
+인사팀 자료의 시작점은 `hr-team/README.md`다. 역할·스킬 원본은 아래 경로에 유지하고 중복 사본을 만들지 않는다.
+
 - 인사팀장: `agents/hr-manager.md`, `.agents/skills/agent-skill-management/SKILL.md`
 - 스킬 탐색 담당: `agents/skill-scout.md`, `.agents/skills/skill-discovery/SKILL.md`
 - 에이전트 제작 담당: `agents/agent-builder.md`, `.agents/skills/agent-building/SKILL.md`

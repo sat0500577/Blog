@@ -369,6 +369,562 @@
           "reason": "Repository root MIT license preserved alongside the copied skill."
         }
       ]
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "imported_on": "2026-11-11",
+      "repository": "https://github.com/JimLiu/baoyu-skills",
+      "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+      "source_path": "skills/baoyu-article-illustrator",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/tree/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/skills/baoyu-article-illustrator",
+      "local_path": "hr-team/.agents/skills/baoyu-article-illustrator",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/baoyu-article-illustrator/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/baoyu-article-illustrator/SKILL.md",
+          "git_blob_sha": "e5511e02fa5a8663f36d47b7bc0ef1c977f331f4",
+          "git_mode": "100644",
+          "sha256": "1c9ee6c39acca81c393aee35bbeead14c4423dd7746b8c51a5944191d19be265"
+        },
+        {
+          "path": "prompts/system.md",
+          "source_path": "skills/baoyu-article-illustrator/prompts/system.md",
+          "git_blob_sha": "9eaf2a7f512cf9eea4058b1aa9da3e03761e7177",
+          "git_mode": "100644",
+          "sha256": "2683c79386d20f2c26e720a4702773be4b1fabd97519b1e48e74bca6b53e3d3e"
+        },
+        {
+          "path": "references/codex-imagegen.md",
+          "source_path": "skills/baoyu-article-illustrator/references/codex-imagegen.md",
+          "git_blob_sha": "8ab615b31ef747c894e28fadbcf1248de17929cb",
+          "git_mode": "100644",
+          "sha256": "e610aa3ed71961f6fb604947b0c6d58fdbdd66147162209ff15c8a91730c760d"
+        },
+        {
+          "path": "references/config/first-time-setup.md",
+          "source_path": "skills/baoyu-article-illustrator/references/config/first-time-setup.md",
+          "git_blob_sha": "7eadb976514802b725d1a68bb92c96fd7eb85437",
+          "git_mode": "100644",
+          "sha256": "ac41d2debf5adacbff469db028008afd03d456d7d4c8a535ab4833dc0dba4f2c"
+        },
+        {
+          "path": "references/config/preferences-schema.md",
+          "source_path": "skills/baoyu-article-illustrator/references/config/preferences-schema.md",
+          "git_blob_sha": "42f7ebc3d7ea9067a4ce63583fe0ca1c4bd1ffcf",
+          "git_mode": "100644",
+          "sha256": "1617d5b6e3bf87f1a7dea2dfb6245204d917c02ad6ed1f50d5394b8394cbbad7"
+        },
+        {
+          "path": "references/palettes/macaron.md",
+          "source_path": "skills/baoyu-article-illustrator/references/palettes/macaron.md",
+          "git_blob_sha": "e7d7a6bac9505d5563264a47701d3384af12db1c",
+          "git_mode": "100644",
+          "sha256": "29735369d5a56d0c24652806ff6326d1716a3c8fc8578e03f4cd8d31b80f1060"
+        },
+        {
+          "path": "references/palettes/mono-ink.md",
+          "source_path": "skills/baoyu-article-illustrator/references/palettes/mono-ink.md",
+          "git_blob_sha": "88132f960a7822020e64f9d8326031fbbe236a10",
+          "git_mode": "100644",
+          "sha256": "a45b5ba9656c56d44e3b4774cd8454bd68ea8a0ee93defa823906c7b1bb0b055"
+        },
+        {
+          "path": "references/palettes/neon.md",
+          "source_path": "skills/baoyu-article-illustrator/references/palettes/neon.md",
+          "git_blob_sha": "d863d676da29452f690d54780b6e264dd23c8e4e",
+          "git_mode": "100644",
+          "sha256": "9b2689b9dc7d0d3382f9f0a7a80c25ce7305e1cdb58e5699f2dbb969af4a8349"
+        },
+        {
+          "path": "references/palettes/warm.md",
+          "source_path": "skills/baoyu-article-illustrator/references/palettes/warm.md",
+          "git_blob_sha": "c2e7afa026e8acc70b97927f681f71613ca9fee0",
+          "git_mode": "100644",
+          "sha256": "6db979618df3b217ad0f46a4fe897e32bf08c0e3189a3873400b2ffc7175041c"
+        },
+        {
+          "path": "references/prompt-construction.md",
+          "source_path": "skills/baoyu-article-illustrator/references/prompt-construction.md",
+          "git_blob_sha": "b6c38fb62a2bf685099e74e4354408ba14ee7316",
+          "git_mode": "100644",
+          "sha256": "4cb80a2d88bee7d8b2af9e28c89c07fb54e56379925774c223c422173f20d6c8"
+        },
+        {
+          "path": "references/style-presets.md",
+          "source_path": "skills/baoyu-article-illustrator/references/style-presets.md",
+          "git_blob_sha": "113c12e58964f29a0fe2064908ec6867b73c1ab1",
+          "git_mode": "100644",
+          "sha256": "8e48f0f57c9810f8a7312f01f4aa3c64270636269cea893f706355fc326f3996"
+        },
+        {
+          "path": "references/styles.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles.md",
+          "git_blob_sha": "ce87bd0b97441b8f3b5a915aa9b6ca0b53225f2e",
+          "git_mode": "100644",
+          "sha256": "9dab264a9d5a52c503432107d9d6c851480a0abb8b095d442c2838c8e357f4aa"
+        },
+        {
+          "path": "references/styles/blueprint.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/blueprint.md",
+          "git_blob_sha": "8e44b5852d08fad300d6d94aaf2bb0a53495e9e6",
+          "git_mode": "100644",
+          "sha256": "4836bdd8c4fcb17694b3010fd21c091e0b2234dca2aafe0ac5fd046d5fb24f67"
+        },
+        {
+          "path": "references/styles/chalkboard.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/chalkboard.md",
+          "git_blob_sha": "31cc36140e4c9160a1bac6f234b0e2f3e4271943",
+          "git_mode": "100644",
+          "sha256": "242f11f226016b388c4d69f1c950fff78a0462ebe47109150b8cfde53b793366"
+        },
+        {
+          "path": "references/styles/editorial.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/editorial.md",
+          "git_blob_sha": "6d12e55c31f5a875ba11e089627d945707965563",
+          "git_mode": "100644",
+          "sha256": "ca096334d70ff7b96ab32ec7796e0c49d60eba1fdb934249559976c33daef008"
+        },
+        {
+          "path": "references/styles/elegant.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/elegant.md",
+          "git_blob_sha": "e7ad444723e512865b281921b8c64b1f15be7919",
+          "git_mode": "100644",
+          "sha256": "8bc8ad9a290646f806e2447af513f9c4df76befae6aa3ad777b02bb514b92cfc"
+        },
+        {
+          "path": "references/styles/fantasy-animation.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/fantasy-animation.md",
+          "git_blob_sha": "d2463c4d763c735bceef64a0fcf3e1e1b4f29a51",
+          "git_mode": "100644",
+          "sha256": "5bc59a1780be6682a21d211b9b4289056c7f44aeba8016560bd2ef7ddb454e3d"
+        },
+        {
+          "path": "references/styles/flat-doodle.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/flat-doodle.md",
+          "git_blob_sha": "36abe92775589e2264e483bb9894c343dca018a8",
+          "git_mode": "100644",
+          "sha256": "094beb61d541c2b2afc73a1162a1f4962e8ef6c4caa03f67c09c2f8637b52e24"
+        },
+        {
+          "path": "references/styles/flat.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/flat.md",
+          "git_blob_sha": "f24c5ced655060b108856d12e66660e12d63e561",
+          "git_mode": "100644",
+          "sha256": "999afbadd7a32138e6036ee13f23da9f199e82deca351dfec2f29ed9abced28c"
+        },
+        {
+          "path": "references/styles/ink-notes.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/ink-notes.md",
+          "git_blob_sha": "1d60fa356f7ca2dfafdf002d46e3e4f3ac3fb766",
+          "git_mode": "100644",
+          "sha256": "5fcb449e9343271498c23642618ebc6b4df1029c3356f42c78abb1c9fd7128a1"
+        },
+        {
+          "path": "references/styles/intuition-machine.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/intuition-machine.md",
+          "git_blob_sha": "aed3d9aaa3f72e7c37fbbd262c2e87b206fc4246",
+          "git_mode": "100644",
+          "sha256": "7009797b135ef1d9752b81d9bf71d4035039207602edb18b74f8c6bd82413201"
+        },
+        {
+          "path": "references/styles/minimal.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/minimal.md",
+          "git_blob_sha": "98ee096d5fbd2a2b80c3f493cdaea3d4729a4cde",
+          "git_mode": "100644",
+          "sha256": "9f45c7852e8b053e1083737a3ca79b175556121951792f814b47f9c596be6e1a"
+        },
+        {
+          "path": "references/styles/nature.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/nature.md",
+          "git_blob_sha": "39ca82e0d515d3331814d3ad77d35ab7cb633fff",
+          "git_mode": "100644",
+          "sha256": "44302deb399cdd5856439b493ffb74925866f238c8bc6379094cab93b05ed631"
+        },
+        {
+          "path": "references/styles/notion.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/notion.md",
+          "git_blob_sha": "5083f4cd7423708c95cf926cfdee3f786e256870",
+          "git_mode": "100644",
+          "sha256": "52efbd2587c46104e2b47bf2e259a3a1bb8546ad5ed15b274a374d9af1a5b314"
+        },
+        {
+          "path": "references/styles/pixel-art.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/pixel-art.md",
+          "git_blob_sha": "dadeb29e8312b1f24685782d7db1af52727b9a57",
+          "git_mode": "100644",
+          "sha256": "3c6a7ce22957179e3a344c4ec8085793951ba2dbab59d8315fe1b5af24a19246"
+        },
+        {
+          "path": "references/styles/playful.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/playful.md",
+          "git_blob_sha": "2df2dbbd7be2994c4d84004ab25293fe15721d40",
+          "git_mode": "100644",
+          "sha256": "ea58b9791b4babd3eaeb2d7285fec44ad7e58d3416ec415e564d7207d00d0940"
+        },
+        {
+          "path": "references/styles/retro.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/retro.md",
+          "git_blob_sha": "ca254e5d569dc00643c62f5759fbeb3bd7fa3c03",
+          "git_mode": "100644",
+          "sha256": "6f69883852c693f314f0f1dd3ab1f025aaf4bd4c6f0708dbeeaa74fe0c9066d7"
+        },
+        {
+          "path": "references/styles/scientific.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/scientific.md",
+          "git_blob_sha": "f0be5a28c94a402a8819dd42c8089da27f94a03a",
+          "git_mode": "100644",
+          "sha256": "0d360a3ab10df6d6dd47c9cee76fa18e3a57fd805d52df84e0b7e24ce315befa"
+        },
+        {
+          "path": "references/styles/screen-print.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/screen-print.md",
+          "git_blob_sha": "9fa5301dfbabffe277526f5939a29096b201a4f1",
+          "git_mode": "100644",
+          "sha256": "52faa0188b7beb71d118d6ef4e936891e615d02eadada8ccf8b79665f605a9f2"
+        },
+        {
+          "path": "references/styles/sketch-notes.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/sketch-notes.md",
+          "git_blob_sha": "4979f7053bc543dd21019af93860278f496cc8ff",
+          "git_mode": "100644",
+          "sha256": "a947e797341ad6aba1871ea1b80ab49957b3409648da9797fb1ecd7e71176c7a"
+        },
+        {
+          "path": "references/styles/sketch.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/sketch.md",
+          "git_blob_sha": "b894b96bd57b09af162367790e2272b408fc0e9a",
+          "git_mode": "100644",
+          "sha256": "e74cc5696fbeb7e52be9cf126784c4a8e58787a5810e3b84f2972cdc69689aae"
+        },
+        {
+          "path": "references/styles/vector-illustration.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/vector-illustration.md",
+          "git_blob_sha": "fe83e7f41bb9093b31e959c18b9e97c1136cee9e",
+          "git_mode": "100644",
+          "sha256": "9b28324319a29f82480401e092d513f9b212571d283bc43c6a8d029f829ed027"
+        },
+        {
+          "path": "references/styles/vintage.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/vintage.md",
+          "git_blob_sha": "405d28372efa46ec364b16a0c2cb52f8fae7a9d5",
+          "git_mode": "100644",
+          "sha256": "b10f965bcdd7951927614a958159d1081aba3f841c97096c704f8ab2431642a6"
+        },
+        {
+          "path": "references/styles/warm.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/warm.md",
+          "git_blob_sha": "f482e962330b7b14956a73a283b44ad7638dc48a",
+          "git_mode": "100644",
+          "sha256": "bebcacbf585b7dd47939a58923a09708aec708afdd88b0c372efe3c1fe461394"
+        },
+        {
+          "path": "references/styles/watercolor.md",
+          "source_path": "skills/baoyu-article-illustrator/references/styles/watercolor.md",
+          "git_blob_sha": "6c47755f321d21616194cf126ce18069f5fba11c",
+          "git_mode": "100644",
+          "sha256": "d66b08079ea4d99d80691fe2a0aef6075ad58ec7adcc1f8976d7ac0249804cb4"
+        },
+        {
+          "path": "references/usage.md",
+          "source_path": "skills/baoyu-article-illustrator/references/usage.md",
+          "git_blob_sha": "193e28ef87dcf635733178489acb130bce59f125",
+          "git_mode": "100644",
+          "sha256": "929cf548cb878cf2ee0698fd62a0fe34ab4876d63e108156075092cecfcff7e6"
+        },
+        {
+          "path": "references/workflow.md",
+          "source_path": "skills/baoyu-article-illustrator/references/workflow.md",
+          "git_blob_sha": "aa75683c37130f50e4a6419142b093115925887e",
+          "git_mode": "100644",
+          "sha256": "2120a434041850e5e520c2eedac59f19664cf3c52a2a9f856e6f90e45aae2b3e"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+          "git_mode": "100644",
+          "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+          "source_url": "https://github.com/JimLiu/baoyu-skills/blob/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
+    },
+    {
+      "name": "baoyu-cover-image",
+      "imported_on": "2026-11-11",
+      "repository": "https://github.com/JimLiu/baoyu-skills",
+      "commit": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
+      "source_path": "skills/baoyu-cover-image",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/tree/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/skills/baoyu-cover-image",
+      "local_path": "hr-team/.agents/skills/baoyu-cover-image",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/baoyu-cover-image/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/baoyu-cover-image/SKILL.md",
+          "git_blob_sha": "e8df53dd0fb32098bb89cee60755e266f043bd27",
+          "git_mode": "100644",
+          "sha256": "440c753f28545766b0f8c17087bb403ac24ab71669e504c81171872097d87ddf"
+        },
+        {
+          "path": "references/auto-selection.md",
+          "source_path": "skills/baoyu-cover-image/references/auto-selection.md",
+          "git_blob_sha": "140de924c42fe6200cebbe36100738641fc13f99",
+          "git_mode": "100644",
+          "sha256": "c15c3434c30f6e47bbfb78a983f1cd96f525234280b547dcc7ffa87a2a81c400"
+        },
+        {
+          "path": "references/base-prompt.md",
+          "source_path": "skills/baoyu-cover-image/references/base-prompt.md",
+          "git_blob_sha": "d07212c1f217aff85f7a14b30d9378e01bb9fa28",
+          "git_mode": "100644",
+          "sha256": "04bfa168192dc77efc13009694297bd1d9e80867d24dae0f1d5a1c5277216364"
+        },
+        {
+          "path": "references/codex-imagegen.md",
+          "source_path": "skills/baoyu-cover-image/references/codex-imagegen.md",
+          "git_blob_sha": "757a417a479ad0269bc8d46b41ee9c77eca21300",
+          "git_mode": "100644",
+          "sha256": "64dae2b803186bcc8c66aa3457fbd0ddd434758c1b1962b63755cd07a3e90d9a"
+        },
+        {
+          "path": "references/compatibility.md",
+          "source_path": "skills/baoyu-cover-image/references/compatibility.md",
+          "git_blob_sha": "f8713106b7e3cac191c00aa50862db85b1b6207f",
+          "git_mode": "100644",
+          "sha256": "6c2f5ac24a6ce91f1a6508e5bbeb99cbade38f9397b174d7c8660abb587634ab"
+        },
+        {
+          "path": "references/config/first-time-setup.md",
+          "source_path": "skills/baoyu-cover-image/references/config/first-time-setup.md",
+          "git_blob_sha": "25ba7b064a067d60972a51652725a6321aa8baac",
+          "git_mode": "100644",
+          "sha256": "8e63eba980e0df2deb4feb4e5aa34f73aad04a576b34569ca414a412f8aca47c"
+        },
+        {
+          "path": "references/config/preferences-schema.md",
+          "source_path": "skills/baoyu-cover-image/references/config/preferences-schema.md",
+          "git_blob_sha": "bf6cc58f7077829cae80a867585c5ea7cf811511",
+          "git_mode": "100644",
+          "sha256": "f808fa824c54970323da455e1f57a626636a207fe756b717b08c8a1821d96366"
+        },
+        {
+          "path": "references/config/watermark-guide.md",
+          "source_path": "skills/baoyu-cover-image/references/config/watermark-guide.md",
+          "git_blob_sha": "93f9b9c8a8f3f2fea521d8f37c877be467c60568",
+          "git_mode": "100644",
+          "sha256": "a804a48fd22d6ab84ab9b9518855dc4b44ee5c52b5fcb365527f48b4f7627e6a"
+        },
+        {
+          "path": "references/dimensions/font.md",
+          "source_path": "skills/baoyu-cover-image/references/dimensions/font.md",
+          "git_blob_sha": "b7714d52a66638111843c2fe2ebe2bf810339b92",
+          "git_mode": "100644",
+          "sha256": "7c586f22671f47b008ce72c332c251112afe94523d7e47a3e80857d9429d9058"
+        },
+        {
+          "path": "references/dimensions/mood.md",
+          "source_path": "skills/baoyu-cover-image/references/dimensions/mood.md",
+          "git_blob_sha": "6502f0ee6a890a2b9493c37c6dd0e54a6bb814fa",
+          "git_mode": "100644",
+          "sha256": "e64f0bd0324f1029046fcd1ab5bceae080c7298c2c4be98c27a5753067abfbc1"
+        },
+        {
+          "path": "references/dimensions/text.md",
+          "source_path": "skills/baoyu-cover-image/references/dimensions/text.md",
+          "git_blob_sha": "0f86ba94cd92b5152525d3844917cedf80dc28e9",
+          "git_mode": "100644",
+          "sha256": "05fdea09afa2453eafc6715216e42d59528b935cfa72271861de9986ffccf10b"
+        },
+        {
+          "path": "references/palettes/cool.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/cool.md",
+          "git_blob_sha": "cd19391c72a23fe057d246b0a398c4bbcba885be",
+          "git_mode": "100644",
+          "sha256": "51454e56fc2ce07e5122bd8ecb9f58b6dc82cc423e19d2aeaba0a604e6bcda08"
+        },
+        {
+          "path": "references/palettes/dark.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/dark.md",
+          "git_blob_sha": "5f9c97205c3da882e436561f75d0712b4340f79c",
+          "git_mode": "100644",
+          "sha256": "51e887eb17897c71e2b6ceed85e96543c11e7c4d26aaa7cd04304b1b961bcb4f"
+        },
+        {
+          "path": "references/palettes/duotone.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/duotone.md",
+          "git_blob_sha": "4c080f7b47d9f71c92c578e7c45a35079e3bb34b",
+          "git_mode": "100644",
+          "sha256": "5ce4cfcaeadedb0a32ae62c41a4c684f315e28cbc1cce4465a230b92a52b037c"
+        },
+        {
+          "path": "references/palettes/earth.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/earth.md",
+          "git_blob_sha": "25d38a5ba2cc029b68615c91dd40ac81e73b8438",
+          "git_mode": "100644",
+          "sha256": "9b9fa379d537f379f425ca6af8a1be3284cf78dc51b931b02f531e0d0d8150b4"
+        },
+        {
+          "path": "references/palettes/elegant.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/elegant.md",
+          "git_blob_sha": "caf09a64a2d799928d6989a21ce650686f718121",
+          "git_mode": "100644",
+          "sha256": "4f50232d1174597a4168b4bdd7fce48b8d65851a6a8ed0b10735f7d87bbf1256"
+        },
+        {
+          "path": "references/palettes/macaron.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/macaron.md",
+          "git_blob_sha": "095968e8762b5095e70e46c746eebd0545563c35",
+          "git_mode": "100644",
+          "sha256": "23022d4aae936a3da1a495b1a4c5dccef7085e6e00e1747291bbe7cb4a71701d"
+        },
+        {
+          "path": "references/palettes/mono.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/mono.md",
+          "git_blob_sha": "ead262f4fce951cac2b4b067e2050fa3e9854fb5",
+          "git_mode": "100644",
+          "sha256": "16823b0d882ec3e6e87cc0236429ca5a33faa282e5ebea377344a707914d7e59"
+        },
+        {
+          "path": "references/palettes/pastel.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/pastel.md",
+          "git_blob_sha": "d4764781484c3cb18bd774d7d9e0d1069a34254e",
+          "git_mode": "100644",
+          "sha256": "14fc4e0e416c957980d4ee7cee3c97a956b82723b8303d946791e654fa7edf39"
+        },
+        {
+          "path": "references/palettes/retro.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/retro.md",
+          "git_blob_sha": "d19fc455d8282936b8f5b12aca5fcf2c82fdf68c",
+          "git_mode": "100644",
+          "sha256": "da56ffe48a5f31b3b70f9cef7bb406da99c9d1d733fddcd6dd762bea5cb09132"
+        },
+        {
+          "path": "references/palettes/vivid.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/vivid.md",
+          "git_blob_sha": "eaca66921d43933e72b988101f4f387481f36709",
+          "git_mode": "100644",
+          "sha256": "7a459d73c3aef3006729d8b9438be2832e73b89455fc77e9f03f5a58442e7e8c"
+        },
+        {
+          "path": "references/palettes/warm.md",
+          "source_path": "skills/baoyu-cover-image/references/palettes/warm.md",
+          "git_blob_sha": "da15b528474d1dcca286a756ab33f31850aa8118",
+          "git_mode": "100644",
+          "sha256": "a9bbcd59baa5a1c5a8bc201804c902805cb4f993cfcc174b2e02596c13d2092b"
+        },
+        {
+          "path": "references/renderings/chalk.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/chalk.md",
+          "git_blob_sha": "a37808c821044bdb18acfb9eb4d03253d25525c4",
+          "git_mode": "100644",
+          "sha256": "3ecd1eda4a76405c1d69c97fe6ba7d2aa61910f85b0032be434c50c8501f7eab"
+        },
+        {
+          "path": "references/renderings/digital.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/digital.md",
+          "git_blob_sha": "5795f8692eacd71863b5f6af9525c25b03275d31",
+          "git_mode": "100644",
+          "sha256": "ad24896fd8bf37cffb43fcb05c176283df01fad11b6f58b1959b1ef797d4e51f"
+        },
+        {
+          "path": "references/renderings/flat-vector.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/flat-vector.md",
+          "git_blob_sha": "a0cd3b61d72f3e300f9f390990163323270051d9",
+          "git_mode": "100644",
+          "sha256": "c7806bde5cd8b3ecd7d81b7f7e30d13ca90eba83e7ca5fa716689e383c61fc34"
+        },
+        {
+          "path": "references/renderings/hand-drawn.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/hand-drawn.md",
+          "git_blob_sha": "3bd6439719a3a11b5731e158a804cdd322d459de",
+          "git_mode": "100644",
+          "sha256": "36750c1139b68724896ca3729a7386be138c525665956cd0cdff41827fd95603"
+        },
+        {
+          "path": "references/renderings/painterly.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/painterly.md",
+          "git_blob_sha": "59b13e86f6c45bc8a332c5192f1f52f0800f8b9f",
+          "git_mode": "100644",
+          "sha256": "28be96451ea70d4727ec2a9b145f923dc5dfc02eddd51b817f352bb2b2e0f840"
+        },
+        {
+          "path": "references/renderings/pixel.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/pixel.md",
+          "git_blob_sha": "f17c43759771282e31aeffa75f0667447f2c9da5",
+          "git_mode": "100644",
+          "sha256": "2ee8b1f8240abb9f3755b8594ef7237c3270b8767a87c357a81008e5999cf484"
+        },
+        {
+          "path": "references/renderings/screen-print.md",
+          "source_path": "skills/baoyu-cover-image/references/renderings/screen-print.md",
+          "git_blob_sha": "0e82e7be5014526d36ccfeaadfa3168d182720b1",
+          "git_mode": "100644",
+          "sha256": "da04e3ff84a70c065df0e8fb9024abf6de3796a1151f268827b4f40b0800c1ec"
+        },
+        {
+          "path": "references/style-presets.md",
+          "source_path": "skills/baoyu-cover-image/references/style-presets.md",
+          "git_blob_sha": "5614b53e9824cfa83f77fc7872d0a9a9c473949b",
+          "git_mode": "100644",
+          "sha256": "d2cce0e9d0c061e9f591c753a3d1f4881e18e3620f30bd64d950e7dbdffa4e1c"
+        },
+        {
+          "path": "references/types.md",
+          "source_path": "skills/baoyu-cover-image/references/types.md",
+          "git_blob_sha": "c741ec8e93a378eed209f7601f602fee46876479",
+          "git_mode": "100644",
+          "sha256": "21d19366eeee7b3157c806d631ea3633c451b9ad39c66c8bb285917d0503cb32"
+        },
+        {
+          "path": "references/visual-elements.md",
+          "source_path": "skills/baoyu-cover-image/references/visual-elements.md",
+          "git_blob_sha": "8fba843a96766354d86a09f6fff15f9fc25416c9",
+          "git_mode": "100644",
+          "sha256": "664df88d191175a98a2a78d4f4e2c25a5f141a8cd8553fd5ac7feeb751eff315"
+        },
+        {
+          "path": "references/workflow/confirm-options.md",
+          "source_path": "skills/baoyu-cover-image/references/workflow/confirm-options.md",
+          "git_blob_sha": "1dc1e66dd6bdbbf857676143578d64a0c31f64a9",
+          "git_mode": "100644",
+          "sha256": "1511e2794939770e11c809fd67b8668e69157a1921566aeb2f256f525d4fa755"
+        },
+        {
+          "path": "references/workflow/prompt-template.md",
+          "source_path": "skills/baoyu-cover-image/references/workflow/prompt-template.md",
+          "git_blob_sha": "384fb95971153e883c47b4ddaa38e8fa196f959e",
+          "git_mode": "100644",
+          "sha256": "c865f9af291b62af1de5f20bfdac742cd2e5b089f727d64a38efc49557134873"
+        },
+        {
+          "path": "references/workflow/reference-images.md",
+          "source_path": "skills/baoyu-cover-image/references/workflow/reference-images.md",
+          "git_blob_sha": "cbc83010fb061eb3e05342eb8cfda09a6ba3f55d",
+          "git_mode": "100644",
+          "sha256": "1bb781495e7b226669a746a944c5c58b9afef13dbc3d27a8eae2962b216d09fa"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+          "git_mode": "100644",
+          "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+          "source_url": "https://github.com/JimLiu/baoyu-skills/blob/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
     }
   ],
   "updated_on": "2026-11-11"

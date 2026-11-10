@@ -1,0 +1,4 @@
+interface:
+  display_name: "주식 블로그 비주얼 제작"
+  short_description: "원고용 대표 이미지와 삽화 및 검증된 데이터 차트를 계획하고 검수합니다"
+  default_prompt: "Use $stock-visuals to prepare suitable article visuals, distinguishing generated illustrations from verified data charts and reporting their sources and review status."

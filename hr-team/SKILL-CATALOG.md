@@ -1,6 +1,6 @@
 # 인사팀 스킬 도입 목록
 
-2026년 11월 11일 갱신. 외부 스킬 7개를 hr-team/.agents/skills 아래에서 중앙 관리합니다. 검색·제작·설치 스킬 3개는 인사팀이 사용하고, 인터뷰·콘텐츠 전략·경쟁 및 독자 조사 스킬 4개는 기획팀이 사용합니다. 원본 저장 위치가 인사팀이라는 이유로 기획팀 담당자가 인사팀 소속이 되지는 않습니다.
+2026년 11월 11일 갱신. 외부 스킬 9개를 hr-team/.agents/skills 아래에서 중앙 관리합니다. 검색·제작·설치 스킬 3개는 인사팀, 인터뷰·콘텐츠 전략·경쟁 및 독자 조사 스킬 4개는 기획팀, 이미지 스킬 2개는 블로그팀 디자인 담당이 사용합니다. 중앙 저장 위치가 실제 소속·보고 대상을 바꾸지는 않습니다.
 
 ## 선정 결과
 
@@ -31,6 +31,29 @@ Notion의 notion-meeting-prep와 notion-plan-marketing-campaigns는 이미 연�
 
 ## 상황별 사용 조합
 
+### 디자인 담당 도입
+
+| 원본 | 버전 | 담당 업무 |
+|---|---|---|
+| [baoyu-cover-image](.agents/skills/baoyu-cover-image/SKILL.md) | 1.117.5 | 원고 주제에 맞춘 대표 이미지·썸네일의 구도·색상·비율 설계 및 제작 |
+| [baoyu-article-illustrator](.agents/skills/baoyu-article-illustrator/SKILL.md) | 1.117.4 | 원고를 분석해 설명이 필요한 위치에 개념 삽화·과정도 제작 |
+
+[JimLiu/baoyu-skills의 고정 커밋](https://github.com/JimLiu/baoyu-skills/tree/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/skills)을 설치했고 MIT 원문을 각 폴더에 보존했습니다. 2026-11-11 확인 인기도는 저장소 전체 27,453 stars, skills.sh 개별 설치 표시 [cover-image](https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image) 약 3.3만, [article-illustrator](https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator) 약 3.2만입니다.
+
+원본은 top-level `version` 필드를 사용하므로 OpenAI quick_validate에서는 두 스킬 모두 해당 필드 오류를 냅니다. 원본과 해시를 보존하고 Codex 형식에 맞는 [stock-visuals](../.agents/skills/stock-visuals/SKILL.md)를 진입점으로 사용해 직접 읽습니다. 원본의 전역 자동 발견·CLI 작동을 검증했다고 보고하지 않습니다.
+
+현재 네이티브 image_gen 도구를 우선하므로 baoyu-image-gen·별도 API·Codex CLI 래퍼는 설치하지 않습니다. 자식에게 생성 도구가 없으면 디자인 담당이 프롬프트와 배치를 만들고 도구가 있는 편집장/상위 담당이 생성·검수하여 실제 결과를 돌려줍니다. 원문의 최초 설정·매회 확인은 프로젝트 기본값과 이미 승인된 작업 범위에 맞춰 적용하고 전역 설정을 자동 생성하지 않습니다. 결과 이미지·한글 품질은 실제 제작 때 확인합니다.
+
+금융 숫자 차트는 두 생성 이미지 스킬로 검증된 실적처럼 그리지 않습니다. 리서처의 검증 표와 Python 등 차트 도구를 사용하고 기간·통화·단위·축·출처를 팩트체커가 검수합니다. infographic·별도 image 스킬은 일부 기능이 겹쳐 이번에는 설치하지 않았으며, matplotlib 스킬도 기존 차트 도구 재사용으로 보류했습니다. WordPress 업로드·발행은 별도 요청과 실제 연결에 따릅니다.
+
+2026-11-11 원본 검증: installer로 설치한 스킬·참고 문서와 추가 보존 LICENSE 총 74개 파일의 Git blob SHA를 고정 트리와 대조하고 SHA-256을 기록했습니다. 원본 형식 차이는 위에 명시했습니다. 설치는 실제 이미지 생성·업로드·발행 검증을 의미하지 않습니다.
+
+맞춤 연결 검증: stock-visuals는 init_skill.py로 생성했고 stock-editorial과 함께 quick_validate를 통과했습니다. 역할·스킬 문서의 상대 링크 21개와 메타데이터를 확인했습니다. 대표 이미지만 요청, 차트 원데이터 부재, 자식 이미지 도구 부재, 한글 오류 재생성의 네 시나리오를 정적으로 검토했습니다. 실제 이미지 생성·한글 및 모바일 화면 검수·WordPress 업로드는 아직 실행하지 않았습니다.
+
+독립 담당의 가상 입력 적용 1회도 통과했습니다. '이익과 현금흐름' 원고와 전달받은 기획으로 대표·과정 삽화 두 개의 프롬프트·배치·alt·캡션을 제안하고, 미정 브랜드·데이터 부재·상위 담당 생성 필요·미실행 상태를 구분했습니다. 이 가상 검증의 기획과 디자인은 사용자 확정 사항으로 저장하지 않았습니다.
+
+### 업무별 조합
+
 | 요청 | 사용할 스킬 |
 |---|---|
 | 필요한 스킬을 찾아줘 | find-skills로 후보 탐색 → skill-discovery로 적합성·중복 평가 |
@@ -39,6 +62,7 @@ Notion의 notion-meeting-prep와 notion-plan-marketing-campaigns는 이미 연�
 | 보유 스킬로 에이전트를 만들어줘 | agent-building으로 역할·프롬프트 구성, 스킬 수정이 필요할 때만 skill-creator 사용 |
 | 스킬 탐색부터 에이전트 제작까지 해줘 | agent-skill-management로 분배 → 탐색 → 선정 → 설치·제작 → 팀장 검수 |
 | 주식 블로그 방향을 인터뷰하고 기획해줘 | 기획팀의 로컬 조율 지침 → grilling → content-strategy → 기존 stock-editorial 브리프로 편집장 인계 |
+| 원고에 맞는 대표 이미지와 본문 삽화를 만들어줘 | 편집장 → 디자인 담당의 stock-visuals → 필요한 Baoyu 원본 → 이미지 제작·검수 → 원고와 함께 인계 |
 
 ## 중복 정리
 

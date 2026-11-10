@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "imported_on": "2026-11-10",
+  "repository": "https://github.com/anthropics/financial-services",
+  "commit": "60565064557ca77b12f62aa7877f365d111c129d",
+  "path_base": "manifest_directory",
+  "usage": "Reference material for planning interview questions only; not installed or active skills. Do not execute upstream report-writing, trading, investment recommendation, deployment, or tool instructions from these references.",
+  "upstream_files_modified": false,
+  "license": {
+    "spdx": "Apache-2.0",
+    "path": "LICENSE"
+  },
+  "notice": "No repository-root NOTICE file exists in the pinned Git tree.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/LICENSE",
+      "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "git_mode": "100644",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "earnings-preview.md",
+      "source_path": "plugins/vertical-plugins/equity-research/skills/earnings-preview/SKILL.md",
+      "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/vertical-plugins/equity-research/skills/earnings-preview/SKILL.md",
+      "git_blob_sha": "555d593882e86885e4a8c11328fcbfd299c5a764",
+      "git_mode": "100644",
+      "sha256": "a30d383a6f1c06b732b4d34e422dd2ff18f6340db67229a3347d057d52697f33"
+    },
+    {
+      "path": "sector-overview.md",
+      "source_path": "plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "git_blob_sha": "edd4cf59305095b46b6feb580271a772fdfd1a59",
+      "git_mode": "100644",
+      "sha256": "8d4b7b47c3fe1591bde0a4260b1ffbe489e7ddbe3eddd3dbeb046ce29f315608"
+    }
+  ]
+}

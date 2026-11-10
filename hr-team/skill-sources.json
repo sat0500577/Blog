@@ -169,6 +169,98 @@
           "reason": "Repository root MIT license preserved alongside the copied skill."
         }
       ]
+    },
+    {
+      "name": "grilling",
+      "repository": "https://github.com/mattpocock/skills",
+      "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "source_path": "skills/productivity/grilling",
+      "source_url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling",
+      "local_path": "hr-team/.agents/skills/grilling",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/grilling/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/productivity/grilling/SKILL.md",
+          "git_blob_sha": "d2f09a18e6a6c65c55f1271ba08dfeaf06f0bed3",
+          "git_mode": "100644",
+          "sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_path": "skills/productivity/grilling/agents/openai.yaml",
+          "git_blob_sha": "ddbdb96139c0c1dfe6bca698f39d0465674b8a39",
+          "git_mode": "100644",
+          "sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+          "git_mode": "100644",
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+          "source_url": "https://github.com/mattpocock/skills/blob/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
+    },
+    {
+      "name": "content-strategy",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "9d6d7ce8d18eb155dc2f9762435f097e60cdad7c",
+      "source_path": "skills/content-strategy",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/skills/content-strategy",
+      "local_path": "hr-team/.agents/skills/content-strategy",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/content-strategy/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/content-strategy/SKILL.md",
+          "git_blob_sha": "61a9c7ad6dd9ec215d28f8bfe72820ab3f6a1023",
+          "git_mode": "100644",
+          "sha256": "6bc1c8df711a6c9466e312dca9c99a895bd76989b7a52d0f39dca340db3bc5f5"
+        },
+        {
+          "path": "evals/evals.json",
+          "source_path": "skills/content-strategy/evals/evals.json",
+          "git_blob_sha": "23310228166d5b0bf579299c40e9a5e4b33d5779",
+          "git_mode": "100644",
+          "sha256": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d"
+        },
+        {
+          "path": "references/content-distribution.md",
+          "source_path": "skills/content-strategy/references/content-distribution.md",
+          "git_blob_sha": "6f4a3c38a15e9949727ebcf621f0054710a02a83",
+          "git_mode": "100644",
+          "sha256": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778"
+        },
+        {
+          "path": "references/headless-cms.md",
+          "source_path": "skills/content-strategy/references/headless-cms.md",
+          "git_blob_sha": "fa01433bf3b29a33fef40c3a580a6087495d3fcc",
+          "git_mode": "100644",
+          "sha256": "efc796ae9596d1efcb876683db2d9b7c10c83e76e1cb69e527097907d5b4fc3f"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "git_mode": "100644",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "source_url": "https://github.com/coreyhaines31/marketingskills/blob/9d6d7ce8d18eb155dc2f9762435f097e60cdad7c/LICENSE",
+          "reason": "Repository root MIT license preserved alongside the copied skill."
+        }
+      ]
     }
   ]
 }

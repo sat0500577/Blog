@@ -1,0 +1,4 @@
+interface:
+  display_name: "최고 비서 업무 분배"
+  short_description: "회장님 요청을 전문 담당자에게 분배하고 검수해 최종 결과를 보고합니다"
+  default_prompt: "Use $executive-coordination to route my request to the right secretary specialists and return a verified consolidated result."

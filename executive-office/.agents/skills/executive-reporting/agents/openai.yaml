@@ -1,4 +1,4 @@
 interface:
-  display_name: "회장님 업무 현황 보고"
-  short_description: "팀별 진행 근거를 확인하고 회장님 보고와 Notion 정리를 준비합니다"
-  default_prompt: "Use $executive-reporting to summarize verified team progress for the chair and record it in the authorized Notion destination when connected."
+  display_name: "비서실 현황 보고와 검수"
+  short_description: "현황 담당이 근거로 보고를 작성하고 최고 비서가 결과를 검수합니다"
+  default_prompt: "Use $executive-reporting to draft or review an evidence-based team progress report for the chief secretary."

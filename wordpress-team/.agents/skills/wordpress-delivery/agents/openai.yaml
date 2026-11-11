@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress 사이트 개선"
+  short_description: "사이트 유형과 근거를 확인하고 분석·SEO·UI·개발 및 검증을 조율합니다"
+  default_prompt: "Use $wordpress-delivery to assess the available WordPress site context, delegate relevant analysis, SEO, UI and development work, and verify changes within the requested scope."

@@ -2,6 +2,7 @@
 
 소속: 블로그 실무(편집)팀. 보고 대상: [편집장](editor.md). 인사팀·기획팀·비서실의 하위 역할이 아니다.
 목표: 원고 이해를 돕는 대표 이미지·삽화·도식과 검증된 데이터 차트를 준비하고 정확성과 가독성을 확인한다.
+사이트 전체의 레이아웃·메뉴·테마·접근성 설계는 [WordPress UI 담당](../wordpress-team/agents/ui-designer.md)이 맡는다. 이 역할은 글에 들어갈 시각 자료에 집중하고 공통 색상·서체는 확정된 사이트 디자인 기준을 재사용한다.
 
 사용 스킬: [stock-visuals](../.agents/skills/stock-visuals/SKILL.md).
 선택 원문: [baoyu-article-illustrator](../hr-team/.agents/skills/baoyu-article-illustrator/SKILL.md), [baoyu-cover-image](../hr-team/.agents/skills/baoyu-cover-image/SKILL.md). 주식 차트는 검증된 표와 기존 Python 도구를 사용한다.

@@ -1,6 +1,6 @@
 # 인사팀 스킬 도입 목록
 
-2026년 11월 11일 갱신. 외부 스킬 9개를 hr-team/.agents/skills 아래에서 중앙 관리합니다. 검색·제작·설치 스킬 3개는 인사팀, 인터뷰·콘텐츠 전략·경쟁 및 독자 조사 스킬 4개는 기획팀, 이미지 스킬 2개는 블로그팀 디자인 담당이 사용합니다. 중앙 저장 위치가 실제 소속·보고 대상을 바꾸지는 않습니다.
+2026년 11월 12일 갱신. 외부 스킬 15개를 hr-team/.agents/skills 아래에서 중앙 관리합니다. 검색·제작·설치 스킬 3개는 인사팀, 인터뷰·콘텐츠 전략·경쟁 및 독자 조사 스킬 4개는 기획팀, 이미지 스킬 2개는 블로그팀 디자인 담당, WordPress·SEO·UI 스킬 6개는 WordPress 개발팀이 사용합니다. 중앙 저장 위치가 실제 소속·보고 대상을 바꾸지는 않습니다.
 
 ## 선정 결과
 
@@ -52,6 +52,29 @@ Notion의 notion-meeting-prep와 notion-plan-marketing-campaigns는 이미 연�
 
 독립 담당의 가상 입력 적용 1회도 통과했습니다. '이익과 현금흐름' 원고와 전달받은 기획으로 대표·과정 삽화 두 개의 프롬프트·배치·alt·캡션을 제안하고, 미정 브랜드·데이터 부재·상위 담당 생성 필요·미실행 상태를 구분했습니다. 이 가상 검증의 기획과 디자인은 사용자 확정 사항으로 저장하지 않았습니다.
 
+### WordPress 개발팀 도입 — 2026-11-12
+
+| 도입 스킬 | 출처 | 담당·선정 이유 | 라이선스 |
+|---|---|---|---|
+| [wp-project-triage](.agents/skills/wp-project-triage/SKILL.md) | WordPress/agent-skills | 팀장·분석 담당: 실제 프로젝트 유형과 도구를 먼저 판별 | GPL-2.0-or-later |
+| [wp-block-themes](.agents/skills/wp-block-themes/SKILL.md) | WordPress/agent-skills | 개발·UI 담당: 블록 테마, theme.json, 템플릿·패턴 | GPL-2.0-or-later |
+| [wp-plugin-development](.agents/skills/wp-plugin-development/SKILL.md) | WordPress/agent-skills | 개발 담당: 플러그인 구조·권한·데이터 처리·검증 | GPL-2.0-or-later |
+| [wp-performance](.agents/skills/wp-performance/SKILL.md) | WordPress/agent-skills | 분석 담당: 서버·DB 성능의 근거 기반 진단 | GPL-2.0-or-later |
+| [seo-audit](.agents/skills/seo-audit/SKILL.md) | coreyhaines31/marketingskills | SEO 담당: 크롤링·색인·메타·검색 구조 점검, v2.2.5 | MIT |
+| [ui-ux-pro-max](.agents/skills/ui-ux-pro-max/SKILL.md) | nextlevelbuilder/ui-ux-pro-max-skill | UI 담당: 로컬 검색 자료를 활용한 가독성·접근성·레이아웃 설계 | MIT |
+
+고정 원본: [WordPress 공식 7374e6f](https://github.com/WordPress/agent-skills/tree/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/skills), [SEO 1f83744](https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit), [UI 6ae86f6](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/6ae86f61f520d6ca229d2f40e070410638c908c5/.claude/skills/ui-ux-pro-max). 원본 전체 폴더·루트 LICENSE를 보존하고 공식 WP에는 GPL 전체 COPYING도 추가 보존했습니다. 파일별 원본·해시는 skill-sources.json에 기록했습니다.
+
+2026-11-12 한국 시간에 확인한 저장소 전체 인기도는 WordPress/agent-skills 2,353 stars, UI UX Pro Max 148,207 stars입니다. UI의 [skills.sh 개별 설치 표시](https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max)는 약 44.66만입니다. 수치는 시점에 따라 변하며 품질 보증이 아닙니다. WordPress는 공식 프로젝트 적합성, SEO는 기존 콘텐츠 전략 스킬과의 연계, UI는 검색 가능한 자료와 실제 실행 도구를 우선했습니다.
+
+원본 WP 4개는 최상위 compatibility 필드 때문에 현재 OpenAI quick_validate를 통과하지 않습니다. 원본을 변경하지 않고 검증된 맞춤 [wordpress-delivery](../wordpress-team/.agents/skills/wordpress-delivery/SKILL.md)를 진입점으로 직접 읽습니다. 공식 원문의 WordPress 7.0+/PHP 7.4+ 선언은 실제 사이트 버전과 대조해야 합니다. 스크립트는 중앙 설치 절대 경로와 실제 대상 코드 CWD를 사용합니다. 파일 탐지와 WP-CLI·DB 부트스트랩을 구분하며, 실제 사이트 정보가 없는 이 저장소에서 성능 진단을 실행하지 않습니다.
+
+UI는 Python 로컬 CSV 검색을 사용하며 WordPress 전용 stack은 없습니다. 일반 UX·스타일·색·타이포그래피를 확인한 테마·빌더에 맞춰 적용합니다. React/Tailwind를 자동 도입하지 않고 기본 조회에 --persist를 사용하지 않습니다. SEO는 웹 조회와 필요 시 실제 Search Console·분석 자료를 사용하며 데이터가 없는 방문자·순위·성과 수치는 미확인으로 둡니다. 실제 사이트·계정 연결이나 유료 서비스는 이번 설치에 포함하지 않습니다.
+
+중복 비교: Vercel web-design-guidelines는 UI 검수 일부가 겹쳐 추가 설치하지 않았습니다. WordPress router와 전체 스킬 묶음도 설치하지 않고 맞춤 조율 스킬이 선택한 6개를 연결합니다. 편집팀의 대표 이미지·삽화 제작은 기존 stock-visuals가 유지하며, 기획팀의 content-strategy와 SEO 담당의 기술 진단은 별도 책임입니다. 세부 실행 조건은 [WordPress 팀 안내](../wordpress-team/README.md)를 따릅니다.
+
+도입 검증: 원본·보존 LICENSE 121개 파일의 Git blob과 SHA-256 대조, GPL COPYING 4개 별도 해시 기록, Node 파일 탐지 3개의 임시 fixture 실행, UI 읽기 전용 UX 검색, SEO/UI와 맞춤 스킬 형식 검사를 완료했습니다. WP 원본의 형식 차이는 위와 같습니다. 독립 담당의 WordPress.com 권한 미확인·승인된 스테이징 UI 수정 두 가상 입력 검토도 통과했습니다. 전체 staged 공백 검사에서는 UI Python과 WP 참고·스크립트 원본의 후행 공백·끝 빈 줄 경고가 확인됐습니다. 원본 해시 보존을 위해 수정하지 않고 자체 작성 파일의 공백 검사를 별도로 통과시켰습니다. 이는 실제 사이트 진단·PHP/DB 실행·브라우저 측정·배포 검증이 아닙니다.
+
 ### 업무별 조합
 
 | 요청 | 사용할 스킬 |
@@ -62,6 +85,7 @@ Notion의 notion-meeting-prep와 notion-plan-marketing-campaigns는 이미 연�
 | 보유 스킬로 에이전트를 만들어줘 | agent-building으로 역할·프롬프트 구성, 스킬 수정이 필요할 때만 skill-creator 사용 |
 | 스킬 탐색부터 에이전트 제작까지 해줘 | agent-skill-management로 분배 → 탐색 → 선정 → 설치·제작 → 팀장 검수 |
 | 주식 블로그 방향을 인터뷰하고 기획해줘 | 기획팀의 로컬 조율 지침 → grilling → content-strategy → 기존 stock-editorial 브리프로 편집장 인계 |
+| WordPress 사이트를 분석하고 SEO·UI를 개선해줘 | wordpress-delivery → 환경 판별 → 필요한 분석·SEO·UI 담당 → 개발·검증 → 팀장 보고 |
 | 원고에 맞는 대표 이미지와 본문 삽화를 만들어줘 | 편집장 → 디자인 담당의 stock-visuals → 필요한 Baoyu 원본 → 이미지 제작·검수 → 원고와 함께 인계 |
 
 ## 중복 정리
@@ -88,7 +112,7 @@ Notion의 notion-meeting-prep와 notion-plan-marketing-campaigns는 이미 연�
 - content-strategy의 B2B 구매·영업·리드 전환은 이 프로젝트에서 독자의 이해·재방문·구독 목표에 맞춰 해석합니다. 주식 거래나 수익을 유도·보장하는 목표로 바꾸지 않습니다. 질문과 수치는 현재 근거에 맞추며 검색량·효과 통계·상위 검색 노출을 지어내지 않습니다.
 - 원문 및 evals의 효과 배수, 채널 수명, 비율 등은 외부 저자의 주장·예시이며 이 프로젝트가 검증한 사실이 아닙니다. 60/30/10 배분이나 우선순위 점수도 고정 정책이 아니라 필요할 때 설명할 가설입니다. 외부 명령·발행·배포·이메일 실행 예시는 실행 권한이 아닙니다.
 - grilling·content-strategy에는 실행 스크립트나 필수 유료 API가 없습니다. 실제 검색·경쟁 분석에는 접근 가능한 웹 도구와 자료가 필요하고, 별도 데이터 공급자의 비용·권한은 사용 전에 확인합니다. 인터뷰에서 필요한 사실 조사만 위임하며 작업량에 맞춰 모델 호출을 제한합니다.
-- content-strategy가 언급하는 copywriting·seo-audit·social·emails·launch 등은 설치하지 않았습니다. 관련 스킬 이름이나 CMS 가이드를 발견한 것만으로 추가 설치·웹사이트 구현·외부 발행을 시작하지 않습니다. 본문 작성과 제작 조율은 기존 블로그 실무팀, 확정 결정의 Notion 기록은 비서실로 인계합니다.
+- content-strategy가 언급하는 copywriting·social·emails·launch 등은 설치하지 않았습니다. seo-audit는 WordPress팀의 기술 SEO 진단용 중앙 원본을 재사용합니다. 관련 스킬 이름이나 CMS 가이드를 발견한 것만으로 추가 설치·웹사이트 구현·외부 발행을 시작하지 않습니다. 본문 작성과 제작 조율은 기존 블로그 실무팀, 확정 결정의 Notion 기록은 비서실로 인계합니다.
 - 실적·산업 관점은 [금융 질문 참고자료](../planning-team/references/financial/README.md)에서 확인합니다. 두 문서는 활성 스킬 수에 포함하지 않으며 실제 데이터·투자 분석 실행으로 취급하지 않습니다. stock-research와 stock-fact-check의 원자료·계산·검수 기준을 재사용합니다.
 
 ## 원본 업데이트 절차

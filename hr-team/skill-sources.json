@@ -925,7 +925,996 @@
           "reason": "Repository root MIT license preserved alongside the copied skill."
         }
       ]
+    },
+    {
+      "name": "wp-project-triage",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "source_path": "skills/wp-project-triage",
+      "source_url": "https://github.com/WordPress/agent-skills/tree/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/skills/wp-project-triage",
+      "local_path": "hr-team/.agents/skills/wp-project-triage",
+      "license": {
+        "spdx": "GPL-2.0-or-later",
+        "local_path": "hr-team/.agents/skills/wp-project-triage/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/wp-project-triage/SKILL.md",
+          "git_blob_sha": "f5ea34e5c1c85f22402a295735f561c045050042",
+          "git_mode": "100644",
+          "sha256": "6475b01679576ded3113a5d12f08b789c1def02249f0fcdd23d119593e72ce5c"
+        },
+        {
+          "path": "references/triage.schema.json",
+          "source_path": "skills/wp-project-triage/references/triage.schema.json",
+          "git_blob_sha": "b947f1c322fc56d71c9e3fdba935583db6f684eb",
+          "git_mode": "100644",
+          "sha256": "f24dd91e56c2268a8026ca97235ada9240c70aded32c1c70985c62af4f306903"
+        },
+        {
+          "path": "scripts/detect_wp_project.mjs",
+          "source_path": "skills/wp-project-triage/scripts/detect_wp_project.mjs",
+          "git_blob_sha": "e0785e2ae4647b720ba771dd9fbefef6784c4d09",
+          "git_mode": "100644",
+          "sha256": "4920474fd1397f4e3c4251e74500ffdffa3d83d9b0063a13b7ae90c2d8ab5669"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "d3fc07ba4bd24a1f5c2d9f3a39f9e0ed4442dba3",
+          "git_mode": "100644",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c",
+          "source_url": "https://github.com/WordPress/agent-skills/blob/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/LICENSE",
+          "reason": "Preserved upstream repository license."
+        },
+        {
+          "path": "COPYING",
+          "source_path": "/usr/share/common-licenses/GPL-2",
+          "source_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+          "reason": "Full GPL version 2 text accompanies upstream GPL-2.0-or-later notice; copied from system common-licenses."
+        }
+      ]
+    },
+    {
+      "name": "wp-block-themes",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "source_path": "skills/wp-block-themes",
+      "source_url": "https://github.com/WordPress/agent-skills/tree/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/skills/wp-block-themes",
+      "local_path": "hr-team/.agents/skills/wp-block-themes",
+      "license": {
+        "spdx": "GPL-2.0-or-later",
+        "local_path": "hr-team/.agents/skills/wp-block-themes/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/wp-block-themes/SKILL.md",
+          "git_blob_sha": "bb3dfca39016b6c40af74e07a17908228c630c47",
+          "git_mode": "100644",
+          "sha256": "ae92ea0d67010c0e68a798dfd9ca8d196e66fa9602414bfa7fcca00dc1a95fa5"
+        },
+        {
+          "path": "references/creating-new-block-theme.md",
+          "source_path": "skills/wp-block-themes/references/creating-new-block-theme.md",
+          "git_blob_sha": "500f401a20a276024c4dc5469dfb9a2226b25d07",
+          "git_mode": "100644",
+          "sha256": "3dcb5bb2ed6c1298b9bb26e3f665f7c3ebebe69e94810a0a0a065fa8a054b774"
+        },
+        {
+          "path": "references/debugging.md",
+          "source_path": "skills/wp-block-themes/references/debugging.md",
+          "git_blob_sha": "9414a16c2b1f458c8b67d700ddc3fff0973915ba",
+          "git_mode": "100644",
+          "sha256": "a1387e6e34220613ae1292a6d86b5c2f4479f443392037ff6977aa68cf9c8239"
+        },
+        {
+          "path": "references/patterns.md",
+          "source_path": "skills/wp-block-themes/references/patterns.md",
+          "git_blob_sha": "aee6bddd49611fa8a4f593de7b4b3afb441dc9b6",
+          "git_mode": "100644",
+          "sha256": "43a2f184a42a80d4784cb0ce064339aead8d411c18827f7d958b247d633453a4"
+        },
+        {
+          "path": "references/style-variations.md",
+          "source_path": "skills/wp-block-themes/references/style-variations.md",
+          "git_blob_sha": "6d02ff7c4fb2f66527335710f04cbcc5b58b2f89",
+          "git_mode": "100644",
+          "sha256": "6f50b6055d3da1dd89543bbafcef2b726756c1901bedf55574f7f5bc1cbd208d"
+        },
+        {
+          "path": "references/templates-and-parts.md",
+          "source_path": "skills/wp-block-themes/references/templates-and-parts.md",
+          "git_blob_sha": "0f009eaa0e17746f4c0a8c22cac3db81558bd96a",
+          "git_mode": "100644",
+          "sha256": "05e9491404e434fe66711d4fcb63ceddb52385365ccb5a5c8ce9b7020a859edc"
+        },
+        {
+          "path": "references/theme-json.md",
+          "source_path": "skills/wp-block-themes/references/theme-json.md",
+          "git_blob_sha": "a444b1afef1fc7a2b5683cac530f059c6571c4a6",
+          "git_mode": "100644",
+          "sha256": "27c8a68465aa3fdf23cdb411242323ee930149048ed3e524ee1584a92e170fa1"
+        },
+        {
+          "path": "scripts/detect_block_themes.mjs",
+          "source_path": "skills/wp-block-themes/scripts/detect_block_themes.mjs",
+          "git_blob_sha": "c951b0372106a650bee3b0d261577cdcc1abddb8",
+          "git_mode": "100644",
+          "sha256": "63bfa8dfbb6d71f615ff62581dec4f361a9da8e11b99ea6faf6c2d9d8c79d13f"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "d3fc07ba4bd24a1f5c2d9f3a39f9e0ed4442dba3",
+          "git_mode": "100644",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c",
+          "source_url": "https://github.com/WordPress/agent-skills/blob/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/LICENSE",
+          "reason": "Preserved upstream repository license."
+        },
+        {
+          "path": "COPYING",
+          "source_path": "/usr/share/common-licenses/GPL-2",
+          "source_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+          "reason": "Full GPL version 2 text accompanies upstream GPL-2.0-or-later notice; copied from system common-licenses."
+        }
+      ]
+    },
+    {
+      "name": "wp-plugin-development",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "source_path": "skills/wp-plugin-development",
+      "source_url": "https://github.com/WordPress/agent-skills/tree/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/skills/wp-plugin-development",
+      "local_path": "hr-team/.agents/skills/wp-plugin-development",
+      "license": {
+        "spdx": "GPL-2.0-or-later",
+        "local_path": "hr-team/.agents/skills/wp-plugin-development/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/wp-plugin-development/SKILL.md",
+          "git_blob_sha": "9cec1d056a20f55fa30704d08d0f7067c55392a2",
+          "git_mode": "100644",
+          "sha256": "a9b8af653897ac150e52de1430ad0c51cefe19553ac932c48cfc54639270c5bc"
+        },
+        {
+          "path": "references/data-and-cron.md",
+          "source_path": "skills/wp-plugin-development/references/data-and-cron.md",
+          "git_blob_sha": "193e25c029a70e8f060df8589008940bb87b1cef",
+          "git_mode": "100644",
+          "sha256": "6a21d6a919b536ca8c748649450031ec71b7606845cabb089540dddb0313626f"
+        },
+        {
+          "path": "references/debugging.md",
+          "source_path": "skills/wp-plugin-development/references/debugging.md",
+          "git_blob_sha": "af783361632f8c17ead523b9d54efed34e29418a",
+          "git_mode": "100644",
+          "sha256": "045e6cfe9bfc77ddec277d4ce9b2ca3e90d3047281dbe4a58f18b4406c59cb6f"
+        },
+        {
+          "path": "references/lifecycle.md",
+          "source_path": "skills/wp-plugin-development/references/lifecycle.md",
+          "git_blob_sha": "ebf083774ee428692c09fd110ac249d94a488821",
+          "git_mode": "100644",
+          "sha256": "231fb911cff2402b6701591a10e202e86cef0c4ea4d7053168fdd7ba02d0a91e"
+        },
+        {
+          "path": "references/security.md",
+          "source_path": "skills/wp-plugin-development/references/security.md",
+          "git_blob_sha": "b63afb250b75aab6761c144583f793ada2889e74",
+          "git_mode": "100644",
+          "sha256": "8b673d60948932a00099664a79b1f92094e1ed2af9c6b3f80d637db8315ddaa5"
+        },
+        {
+          "path": "references/settings-api.md",
+          "source_path": "skills/wp-plugin-development/references/settings-api.md",
+          "git_blob_sha": "0a07970acc29a060d42824cf53b93c2deffd45c6",
+          "git_mode": "100644",
+          "sha256": "535fde7f0194f6f14e999d6d691f3e9b696d0da2425fa737254628c9c5d20ceb"
+        },
+        {
+          "path": "references/structure.md",
+          "source_path": "skills/wp-plugin-development/references/structure.md",
+          "git_blob_sha": "b05503bcb3d6e1342673e74f4af1d4eff3cd824f",
+          "git_mode": "100644",
+          "sha256": "00ae05f608a594e7be557d41aa8bf3b9240a4ce84986cbf11ab7a419f48fdb03"
+        },
+        {
+          "path": "scripts/detect_plugins.mjs",
+          "source_path": "skills/wp-plugin-development/scripts/detect_plugins.mjs",
+          "git_blob_sha": "9c7b55a4b40a8d650f58af68a752f61c3e83a064",
+          "git_mode": "100644",
+          "sha256": "7df472957ab213161adad1111c2b69e3acc2d7235bae02d8e0f6fc14385efee5"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "d3fc07ba4bd24a1f5c2d9f3a39f9e0ed4442dba3",
+          "git_mode": "100644",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c",
+          "source_url": "https://github.com/WordPress/agent-skills/blob/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/LICENSE",
+          "reason": "Preserved upstream repository license."
+        },
+        {
+          "path": "COPYING",
+          "source_path": "/usr/share/common-licenses/GPL-2",
+          "source_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+          "reason": "Full GPL version 2 text accompanies upstream GPL-2.0-or-later notice; copied from system common-licenses."
+        }
+      ]
+    },
+    {
+      "name": "wp-performance",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "source_path": "skills/wp-performance",
+      "source_url": "https://github.com/WordPress/agent-skills/tree/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/skills/wp-performance",
+      "local_path": "hr-team/.agents/skills/wp-performance",
+      "license": {
+        "spdx": "GPL-2.0-or-later",
+        "local_path": "hr-team/.agents/skills/wp-performance/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/wp-performance/SKILL.md",
+          "git_blob_sha": "8b13e64627429e1d6f2cdbd0db80dd7497f4af4b",
+          "git_mode": "100644",
+          "sha256": "778eeed6d38c8584a04556cb4d6083369d83085a580dc2c7fac7c3de2409635d"
+        },
+        {
+          "path": "references/autoload-options.md",
+          "source_path": "skills/wp-performance/references/autoload-options.md",
+          "git_blob_sha": "2b1758cc0576e454e6067aa37d9f9998c71e0d0d",
+          "git_mode": "100644",
+          "sha256": "42d8465c18f87d2676281ce09534562d7f8f4a4c39342fab012c1b391458fbc8"
+        },
+        {
+          "path": "references/cron.md",
+          "source_path": "skills/wp-performance/references/cron.md",
+          "git_blob_sha": "dd7a53d6d4c41ad4406e1d2f7452cd9d83b91e8d",
+          "git_mode": "100644",
+          "sha256": "54c56935bfd4845515df28c8d6ea801aedd2d5710980ba2f0c3829bf61bd74ff"
+        },
+        {
+          "path": "references/database.md",
+          "source_path": "skills/wp-performance/references/database.md",
+          "git_blob_sha": "cd796c7504b9c3ab08ac7bff2a410ece2803a273",
+          "git_mode": "100644",
+          "sha256": "ffc6dc561228f2967f939ff4052711103a010f6c60bca442621ad94a051125de"
+        },
+        {
+          "path": "references/http-api.md",
+          "source_path": "skills/wp-performance/references/http-api.md",
+          "git_blob_sha": "8de5a47274ee70e35f5b3e3bdc3aadc558419669",
+          "git_mode": "100644",
+          "sha256": "bb6a36c4e8287ea589e9c9571822729d6f005ccb1268a7212b21a346cbb22ba3"
+        },
+        {
+          "path": "references/measurement.md",
+          "source_path": "skills/wp-performance/references/measurement.md",
+          "git_blob_sha": "ef196ad7ef65b859d14dc7cd10bb10956d21505a",
+          "git_mode": "100644",
+          "sha256": "906d0a8501b11cffc6bb86fd333bc7e96245124fbcc16a8d398e52ed7059b37e"
+        },
+        {
+          "path": "references/object-cache.md",
+          "source_path": "skills/wp-performance/references/object-cache.md",
+          "git_blob_sha": "6e87f106509137b0d80cd57dc5d914ef23791499",
+          "git_mode": "100644",
+          "sha256": "9ee1ffc154564645b60772c1994a7080e376fbebc461ce5e277d92f1c7af8d2a"
+        },
+        {
+          "path": "references/query-monitor-headless.md",
+          "source_path": "skills/wp-performance/references/query-monitor-headless.md",
+          "git_blob_sha": "fd427d33f6d833c49e0d1cfe4a404c5ce0728fda",
+          "git_mode": "100644",
+          "sha256": "4985fc2eccfefd3c3e12531972d0a76813b2d8f1935203a1003b4ff2ecb317d1"
+        },
+        {
+          "path": "references/server-timing.md",
+          "source_path": "skills/wp-performance/references/server-timing.md",
+          "git_blob_sha": "b8a01742499147f896278d8b6a92fe6da21d88d9",
+          "git_mode": "100644",
+          "sha256": "a0f4886d5842cae8b36ff8b801c210fda760f8cb5c0eb958ca11035f499ae341"
+        },
+        {
+          "path": "references/wp-cli-doctor.md",
+          "source_path": "skills/wp-performance/references/wp-cli-doctor.md",
+          "git_blob_sha": "9d22832c6f8fdf6e626f07d57741a9e109598408",
+          "git_mode": "100644",
+          "sha256": "6ac52e79e1d51e066cfcfefbe9431f5af75b6519bfe3edce70e24f5129acefd3"
+        },
+        {
+          "path": "references/wp-cli-profile.md",
+          "source_path": "skills/wp-performance/references/wp-cli-profile.md",
+          "git_blob_sha": "8575e48eb62a2f3d21a868a4b80ec5eb5b1f755f",
+          "git_mode": "100644",
+          "sha256": "74f51a3caccde9a2deef9071bef0c70735868bff8a5e51cf9737308cdf59eac6"
+        },
+        {
+          "path": "scripts/perf_inspect.mjs",
+          "source_path": "skills/wp-performance/scripts/perf_inspect.mjs",
+          "git_blob_sha": "0b96e21547a42f63bb8acb89440d441e3f180b52",
+          "git_mode": "100644",
+          "sha256": "5031a0ce0b81074cbf0fb69be5a60b8031de78f33fe2d6325c0d022165d6b688"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "d3fc07ba4bd24a1f5c2d9f3a39f9e0ed4442dba3",
+          "git_mode": "100644",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c",
+          "source_url": "https://github.com/WordPress/agent-skills/blob/7374e6f1c913b3b02b25465d266d9c0e0a04fc96/LICENSE",
+          "reason": "Preserved upstream repository license."
+        },
+        {
+          "path": "COPYING",
+          "source_path": "/usr/share/common-licenses/GPL-2",
+          "source_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+          "reason": "Full GPL version 2 text accompanies upstream GPL-2.0-or-later notice; copied from system common-licenses."
+        }
+      ]
+    },
+    {
+      "name": "seo-audit",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "source_path": "skills/seo-audit",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit",
+      "local_path": "hr-team/.agents/skills/seo-audit",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/seo-audit/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": "skills/seo-audit/SKILL.md",
+          "git_blob_sha": "b33eecef416f2c5e5e2ae49eeafc3c81f88f445e",
+          "git_mode": "100644",
+          "sha256": "fb345045339bb0645029c1c0d682703d262f045a7184fe96cb0e13f509468e2a"
+        },
+        {
+          "path": "evals/evals.json",
+          "source_path": "skills/seo-audit/evals/evals.json",
+          "git_blob_sha": "d569ae70cf4746f7a27e7808abbaea4878c27fd7",
+          "git_mode": "100644",
+          "sha256": "1524e98916ab53abb894fb80827a8d0e1815041adca2ee2023b89916d68f22b2"
+        },
+        {
+          "path": "references/ai-writing-detection.md",
+          "source_path": "skills/seo-audit/references/ai-writing-detection.md",
+          "git_blob_sha": "cb67ece4135f4153575bbbdfbf722364babff61d",
+          "git_mode": "100644",
+          "sha256": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4"
+        },
+        {
+          "path": "references/international-seo.md",
+          "source_path": "skills/seo-audit/references/international-seo.md",
+          "git_blob_sha": "35a7ad2aeadcbef2541563b0077d5f717e4b147d",
+          "git_mode": "100644",
+          "sha256": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5"
+        },
+        {
+          "path": "references/local-seo-pages-and-measurement.md",
+          "source_path": "skills/seo-audit/references/local-seo-pages-and-measurement.md",
+          "git_blob_sha": "d49f0443e091c70e4778a4e33030a33d18a361a4",
+          "git_mode": "100644",
+          "sha256": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3"
+        },
+        {
+          "path": "references/local-seo-profile-and-citations.md",
+          "source_path": "skills/seo-audit/references/local-seo-profile-and-citations.md",
+          "git_blob_sha": "d34b7e043cb7c4d2da114f04e986bd476a22d0c6",
+          "git_mode": "100644",
+          "sha256": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3"
+        },
+        {
+          "path": "references/local-seo.md",
+          "source_path": "skills/seo-audit/references/local-seo.md",
+          "git_blob_sha": "c2636ada98809d6ed8db588040817adc332add5e",
+          "git_mode": "100644",
+          "sha256": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376"
+        },
+        {
+          "path": "references/rankings-push.md",
+          "source_path": "skills/seo-audit/references/rankings-push.md",
+          "git_blob_sha": "5e3930e47e521cf3d27db2e7120ffde8ace3035d",
+          "git_mode": "100644",
+          "sha256": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8"
+        },
+        {
+          "path": "references/title-tags.md",
+          "source_path": "skills/seo-audit/references/title-tags.md",
+          "git_blob_sha": "5d5eac8002179ac5288f3b4bbd2aa35b3a409a42",
+          "git_mode": "100644",
+          "sha256": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "git_mode": "100644",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "source_url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/LICENSE",
+          "reason": "Preserved upstream repository license."
+        }
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "imported_on": "2026-11-12",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "6ae86f61f520d6ca229d2f40e070410638c908c5",
+      "source_path": ".claude/skills/ui-ux-pro-max",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/6ae86f61f520d6ca229d2f40e070410638c908c5/.claude/skills/ui-ux-pro-max",
+      "local_path": "hr-team/.agents/skills/ui-ux-pro-max",
+      "license": {
+        "spdx": "MIT",
+        "local_path": "hr-team/.agents/skills/ui-ux-pro-max/LICENSE"
+      },
+      "original_files": [
+        {
+          "path": "SKILL.md",
+          "source_path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+          "git_blob_sha": "2cacc8756e816a1eb6bfa44307372f2aeb445902",
+          "git_mode": "100644",
+          "sha256": "14f43337edfbf7822e091428e4ae0c6f92f86e3353deda6a30f6613121e2cf2d"
+        },
+        {
+          "path": "data/app-interface.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/app-interface.csv",
+          "git_blob_sha": "95e328c807a23be02c9c32c736d0fa19109c6076",
+          "git_mode": "100644",
+          "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08"
+        },
+        {
+          "path": "data/catalog-summary.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/catalog-summary.json",
+          "git_blob_sha": "8e77f491a936aa4cc2161792eb71f8a2410bd360",
+          "git_mode": "100644",
+          "sha256": "b27655fbce8fec64b7ab7ec6ac11f079a0e6ab29a5c2785d624cedc96dd0742f"
+        },
+        {
+          "path": "data/charts.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/charts.csv",
+          "git_blob_sha": "c6f4f875fd5b34379f24dbb541539492366a1058",
+          "git_mode": "100644",
+          "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a"
+        },
+        {
+          "path": "data/colors.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/colors.csv",
+          "git_blob_sha": "5d2bf7389105f8a824b504b57cc93c00dc1d7e0a",
+          "git_mode": "100644",
+          "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c"
+        },
+        {
+          "path": "data/data-provenance.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/data-provenance.json",
+          "git_blob_sha": "e5b03dfbdae5c15ea42593f16360d0be9c42ac19",
+          "git_mode": "100644",
+          "sha256": "e29a3aab8d8418a23f67e00a8e8f3064afe4eea1183540ec4af374ec6f4fc938"
+        },
+        {
+          "path": "data/google-font-licenses.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json",
+          "git_blob_sha": "3ac2c34e80665bc902e265c52ab6c27b1654524c",
+          "git_mode": "100644",
+          "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a"
+        },
+        {
+          "path": "data/google-fonts.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/google-fonts.csv",
+          "git_blob_sha": "d7f87e3e0159b1caba083b9954793d9852256aa0",
+          "git_mode": "100644",
+          "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03"
+        },
+        {
+          "path": "data/icons.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/icons.csv",
+          "git_blob_sha": "cfc3f1eccd7e5aee15d8d70f86d8fa17ba737958",
+          "git_mode": "100644",
+          "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc"
+        },
+        {
+          "path": "data/landing.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/landing.csv",
+          "git_blob_sha": "34858160aa2789c49dca274d48bb116d51dd3f0a",
+          "git_mode": "100644",
+          "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+        },
+        {
+          "path": "data/motion.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/motion.csv",
+          "git_blob_sha": "8e0ca9ceb0e4cd4832aee60ac74713e1e1830de8",
+          "git_mode": "100644",
+          "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb"
+        },
+        {
+          "path": "data/phosphor-icons-upstream.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+          "git_blob_sha": "ec1d76b8117ccbfdce5df214bf0d993e41a75318",
+          "git_mode": "100644",
+          "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236"
+        },
+        {
+          "path": "data/products.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/products.csv",
+          "git_blob_sha": "f5f747335cdc631359ed6705ede2906e93d41b19",
+          "git_mode": "100644",
+          "sha256": "5756125e2b0e0d2360926f175d0975c8cd846c7589e5e2ce02631ff645e66361"
+        },
+        {
+          "path": "data/react-performance.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/react-performance.csv",
+          "git_blob_sha": "425a8e76c6b3bae40e8c633ffbf7ad6222c9f73a",
+          "git_mode": "100644",
+          "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734"
+        },
+        {
+          "path": "data/stacks/angular.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/angular.csv",
+          "git_blob_sha": "5a1878dbee2b3c55c6468cbb18699b84d1a8c4d2",
+          "git_mode": "100644",
+          "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553"
+        },
+        {
+          "path": "data/stacks/astro.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/astro.csv",
+          "git_blob_sha": "1fd2492420b20a0b311295ab883597fadb8245a6",
+          "git_mode": "100644",
+          "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6"
+        },
+        {
+          "path": "data/stacks/avalonia.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+          "git_blob_sha": "c67f4117105865587eda9020c57d8c209f3a929a",
+          "git_mode": "100644",
+          "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258"
+        },
+        {
+          "path": "data/stacks/flutter.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+          "git_blob_sha": "731805c4076bd9f2755ca4bd7def5be6f6df7e9c",
+          "git_mode": "100644",
+          "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0"
+        },
+        {
+          "path": "data/stacks/html-tailwind.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+          "git_blob_sha": "9089eb0fc821ff0c8d135f8ee503be345e8fcb84",
+          "git_mode": "100644",
+          "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee"
+        },
+        {
+          "path": "data/stacks/javafx.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+          "git_blob_sha": "744bd80f437f12bfb5bb9c84630a58022604675a",
+          "git_mode": "100644",
+          "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869"
+        },
+        {
+          "path": "data/stacks/jetpack-compose.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+          "git_blob_sha": "8daa0b8f9a2ca3f0f1711664d9d677cd1c38dd9e",
+          "git_mode": "100644",
+          "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a"
+        },
+        {
+          "path": "data/stacks/laravel.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+          "git_blob_sha": "ed11b0fba457e02857f996d1542fb0b8e1271756",
+          "git_mode": "100644",
+          "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9"
+        },
+        {
+          "path": "data/stacks/nextjs.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+          "git_blob_sha": "acdaf097dff26ba0d3b22ab4544bf6169c87afd4",
+          "git_mode": "100644",
+          "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4"
+        },
+        {
+          "path": "data/stacks/nuxt-ui.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+          "git_blob_sha": "f6b8000e106aaf421a61da45134e35c8f03e18c6",
+          "git_mode": "100644",
+          "sha256": "9c0179d559abe39ad63b958b54cb29c82be1dd20706430476096ea8967bfa328"
+        },
+        {
+          "path": "data/stacks/nuxtjs.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+          "git_blob_sha": "ceab9cf3358d2788af0bd7dc14cb3fab769740d0",
+          "git_mode": "100644",
+          "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176"
+        },
+        {
+          "path": "data/stacks/react-native.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+          "git_blob_sha": "a5aea45dc1d0341b11ee42076a86db842d4d2a19",
+          "git_mode": "100644",
+          "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5"
+        },
+        {
+          "path": "data/stacks/react.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/react.csv",
+          "git_blob_sha": "fe8f001e695a978733449e04e99d7135af0f1bf3",
+          "git_mode": "100644",
+          "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1"
+        },
+        {
+          "path": "data/stacks/shadcn.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+          "git_blob_sha": "0e8bedf3084e7a40d6310bcd3011c437efcb1700",
+          "git_mode": "100644",
+          "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51"
+        },
+        {
+          "path": "data/stacks/svelte.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+          "git_blob_sha": "51684fe70448e15333cd16207db7da8aea0508e6",
+          "git_mode": "100644",
+          "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db"
+        },
+        {
+          "path": "data/stacks/swiftui.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+          "git_blob_sha": "ea9b95e8922e663b2adf27a7346e2c2f44c7a215",
+          "git_mode": "100644",
+          "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623"
+        },
+        {
+          "path": "data/stacks/threejs.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+          "git_blob_sha": "f62286320038beabbdc5e11e07ca2818d8e959a4",
+          "git_mode": "100644",
+          "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b"
+        },
+        {
+          "path": "data/stacks/uno.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/uno.csv",
+          "git_blob_sha": "9cab32326b4ad3a3cf43451a3c24553a41126cc1",
+          "git_mode": "100644",
+          "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48"
+        },
+        {
+          "path": "data/stacks/uwp.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+          "git_blob_sha": "04a84ea092a7657fef11e5daa97982be52dc6f59",
+          "git_mode": "100644",
+          "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c"
+        },
+        {
+          "path": "data/stacks/vue.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/vue.csv",
+          "git_blob_sha": "83997c515775170f22b638635aae0a67a46dfc87",
+          "git_mode": "100644",
+          "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95"
+        },
+        {
+          "path": "data/stacks/winui.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/winui.csv",
+          "git_blob_sha": "107ecead11728a83ec0ea10d815a9d1f43a35792",
+          "git_mode": "100644",
+          "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85"
+        },
+        {
+          "path": "data/stacks/wpf.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+          "git_blob_sha": "4e88d6750833a74f85ba487cf2b8f4ff6ebd2f4a",
+          "git_mode": "100644",
+          "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7"
+        },
+        {
+          "path": "data/styles.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/styles.csv",
+          "git_blob_sha": "7ed18d6ef06557b9a6f2285b87b458fd71e4722f",
+          "git_mode": "100644",
+          "sha256": "a9b6cadbd1cb9e7cb8398a3b445e0691d01e42ed5e5efa60a5d0c08c99c8100d"
+        },
+        {
+          "path": "data/typography.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/typography.csv",
+          "git_blob_sha": "70d107d107de30150863c965767320ec33ef29ad",
+          "git_mode": "100644",
+          "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8"
+        },
+        {
+          "path": "data/ui-reasoning.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+          "git_blob_sha": "8931d4c809f8e22ddac00ce612ce0c35f34a59b6",
+          "git_mode": "100644",
+          "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a"
+        },
+        {
+          "path": "data/ux-guidelines.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+          "git_blob_sha": "b81d5a2ff845e348af60f96262b67f941b8f506f",
+          "git_mode": "100644",
+          "sha256": "d63dc39439cf615cdccfdf7acd2301e0c3ce5e1e56a89b60617fa190f7511512"
+        },
+        {
+          "path": "references/pro-rules.md",
+          "source_path": ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+          "git_blob_sha": "b2ce233287e37ec9ca13476c4014b922e9d5a0e9",
+          "git_mode": "100644",
+          "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23"
+        },
+        {
+          "path": "references/quick-reference.md",
+          "source_path": ".claude/skills/ui-ux-pro-max/references/quick-reference.md",
+          "git_blob_sha": "ad9775068092fa9d2555d582db6c68b0548348cc",
+          "git_mode": "100644",
+          "sha256": "fc53ccfafaa08d40d7326e34e88e9387df60b4256cd649d34dcae0284f247949"
+        },
+        {
+          "path": "scripts/core.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/core.py",
+          "git_blob_sha": "02a3eee65462772dda9e0e56ae1dc1531b68c85a",
+          "git_mode": "100644",
+          "sha256": "caf92bdcf2579c9a7d6af4f53c54ee9d3c8f05472cfab77aaec38bef120ec63e"
+        },
+        {
+          "path": "scripts/design_system.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+          "git_blob_sha": "d5fe1575f00d839f919603bd09b44fe7e9def4fb",
+          "git_mode": "100644",
+          "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103"
+        },
+        {
+          "path": "scripts/reasoning_contract.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+          "git_blob_sha": "63652a666b130c249ea1e2954316f1ac8a5a73d5",
+          "git_mode": "100644",
+          "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913"
+        },
+        {
+          "path": "scripts/search.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/search.py",
+          "git_blob_sha": "9ce5e402c29f265e435481791a87cdef73c4a903",
+          "git_mode": "100644",
+          "sha256": "9fd5acc991142fd43c3afe7be0f6720911b668f3988b34e74b5cbc41d58e7947"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-api.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+          "git_blob_sha": "eacf1bb4559875808247df711376e8cc47c4f7c4",
+          "git_mode": "100644",
+          "sha256": "22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-catalog.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+          "git_blob_sha": "4eb89d4d3312b670ef70d44563bf2ffd5cf814bb",
+          "git_mode": "100644",
+          "sha256": "c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-existing.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+          "git_blob_sha": "83279e0f218e9725b8a14486a558fa10ff134949",
+          "git_mode": "100644",
+          "sha256": "4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-metadata.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+          "git_blob_sha": "43edcbec14c4a5e68d373eda8466c235f2ee7e9b",
+          "git_mode": "100644",
+          "sha256": "30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-overrides.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+          "git_blob_sha": "162fd1830b08dc1a7b8b891f92f16dbb8b7015f2",
+          "git_mode": "100644",
+          "sha256": "6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/icons-curated.csv",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+          "git_blob_sha": "3171bfc7a0a6b3b36745b4f7f0c7743f0afad953",
+          "git_mode": "100644",
+          "sha256": "68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-core.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+          "git_blob_sha": "be0edd337f2c731af41b8a745d37089172c5dc60",
+          "git_mode": "100644",
+          "sha256": "ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-package.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+          "git_blob_sha": "ad9e6ef4b835e65a6c0bd0ad9d11f0517fd718c1",
+          "git_mode": "100644",
+          "sha256": "500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+          "git_blob_sha": "4a0b4587ce9876acac1904831ea774bbf8c69edf",
+          "git_mode": "100644",
+          "sha256": "d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+          "git_blob_sha": "a0db183da61e63f3a8f9e3fbfba7405144f41c1e",
+          "git_mode": "100644",
+          "sha256": "1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-baseline.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+          "git_blob_sha": "0894a44cc154a01d3b2d624a66c30e7ac3e1a3d5",
+          "git_mode": "100644",
+          "sha256": "0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-cases.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+          "git_blob_sha": "a1fbb87835bda252ba8ae7f15e7090cee580cb42",
+          "git_mode": "100644",
+          "sha256": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-thresholds.json",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+          "git_blob_sha": "c4ded1a6e6fb2620e4b485dd0c4d16fbd278dd99",
+          "git_mode": "100644",
+          "sha256": "8b1d1c87cecb51db673b7d50e5f6cf29169edfa857853accd1ed80fce3fb4e09"
+        },
+        {
+          "path": "scripts/tests/test_catalog_refresh.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+          "git_blob_sha": "8379cc3a224bb9f3dca2a3ebd561cd92b7e05ae4",
+          "git_mode": "100644",
+          "sha256": "3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb"
+        },
+        {
+          "path": "scripts/tests/test_catalog_summary_line_endings.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+          "git_blob_sha": "056c8e5e7d8ba69c87c31c8ad7bcd32ca3d7223c",
+          "git_mode": "100644",
+          "sha256": "fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989"
+        },
+        {
+          "path": "scripts/tests/test_core.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core.py",
+          "git_blob_sha": "b30c0ae54c25f38ec91b37a56cda04426b2510a9",
+          "git_mode": "100644",
+          "sha256": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118"
+        },
+        {
+          "path": "scripts/tests/test_core_data_quality.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+          "git_blob_sha": "6d36c79b1f9f8c68c4b02f86a09c5e5f9ba410fe",
+          "git_mode": "100644",
+          "sha256": "3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5"
+        },
+        {
+          "path": "scripts/tests/test_data_contracts.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+          "git_blob_sha": "312dc383b3f6548d7200e928c192673a907b5016",
+          "git_mode": "100644",
+          "sha256": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a"
+        },
+        {
+          "path": "scripts/tests/test_design_system_mode.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+          "git_blob_sha": "44c80c1caa159058a7a5858284ea269bcb561449",
+          "git_mode": "100644",
+          "sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef"
+        },
+        {
+          "path": "scripts/tests/test_design_system_stack.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+          "git_blob_sha": "50f0080300b56f4891014d878edddb781b36d7de",
+          "git_mode": "100644",
+          "sha256": "83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38"
+        },
+        {
+          "path": "scripts/tests/test_ime_composition.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_ime_composition.py",
+          "git_blob_sha": "731fa854ff22b0009717997d935d475760f3d6b7",
+          "git_mode": "100644",
+          "sha256": "6718a0420a5c791c912763ad9d1b66e824b3b55240bc91242a5cccf13482416d"
+        },
+        {
+          "path": "scripts/tests/test_native_desktop_stack_freshness.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+          "git_blob_sha": "79e07f4f5f9c88025506cb3d7bb5aad01dbbd339",
+          "git_mode": "100644",
+          "sha256": "3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb"
+        },
+        {
+          "path": "scripts/tests/test_relevance_evaluator.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+          "git_blob_sha": "ed158e2d4e39a342090b29435dee25bcf5c4444f",
+          "git_mode": "100644",
+          "sha256": "2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f"
+        },
+        {
+          "path": "scripts/tests/test_rtl_support.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_rtl_support.py",
+          "git_blob_sha": "d013af865b6bee8d426ce9eb62bd71e71ced1785",
+          "git_mode": "100644",
+          "sha256": "fb1c42f782d1929959c5adaefb8169b187b1446a17720ed4f0691b1cd3bb7898"
+        },
+        {
+          "path": "scripts/tests/test_skill_script_paths.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+          "git_blob_sha": "36514964d7ea6edcadc169e0d713c18b1cc0bb09",
+          "git_mode": "100644",
+          "sha256": "7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44"
+        },
+        {
+          "path": "scripts/tests/test_style_taxonomy.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+          "git_blob_sha": "d04913bb025aa5bbce7da31aa0869cb3550b5c99",
+          "git_mode": "100644",
+          "sha256": "58c14be6c741de5382e3aeca858480570ba96d374532c3b22f44851a02d3076b"
+        },
+        {
+          "path": "scripts/tests/test_text_layout_resilience.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+          "git_blob_sha": "8db3b873f958b93906abb8f4e4d6ef75a344c76e",
+          "git_mode": "100644",
+          "sha256": "b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4"
+        },
+        {
+          "path": "scripts/tests/test_web_stack_freshness.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+          "git_blob_sha": "434c89b7c2aab7db6623415b1280486df1a91133",
+          "git_mode": "100644",
+          "sha256": "83a6d597410f442441cdb17d0913be151404a608ada6a2487dd2bfe2fbf31e5d"
+        },
+        {
+          "path": "scripts/validate_data.py",
+          "source_path": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+          "git_blob_sha": "8b6c7941f6ad3e51cb9d412b11185133e7763001",
+          "git_mode": "100644",
+          "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8"
+        }
+      ],
+      "additional_files": [
+        {
+          "path": "LICENSE",
+          "source_path": "LICENSE",
+          "git_blob_sha": "1e71cbf26660f31903807d099fe902c098fc7e4c",
+          "git_mode": "100644",
+          "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+          "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/6ae86f61f520d6ca229d2f40e070410638c908c5/LICENSE",
+          "reason": "Preserved upstream repository license."
+        }
+      ]
     }
   ],
-  "updated_on": "2026-11-11"
+  "updated_on": "2026-11-12"
 }

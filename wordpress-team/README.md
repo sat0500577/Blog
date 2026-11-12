@@ -25,6 +25,10 @@
 
 외부 원본은 인사팀에서 중앙 관리하고 여기에 복제하지 않습니다. 원본 출처·라이선스·파일 해시는 [출처 기록](../hr-team/skill-sources.json), 적용 조건은 [카탈로그](../hr-team/SKILL-CATALOG.md)를 따릅니다.
 
+디자인에 추가 확인이 필요하면 팀장·UI 담당이 이미 보유한 [grilling](../hr-team/.agents/skills/grilling/SKILL.md)을 재사용합니다. UI 담당은 기존 대화·Notion 확정 기획·코드로 답을 확인한 뒤 질문 초안을 만들고, 팀장이 추천 이유·선택지와 함께 한 번에 핵심 1~2개만 묻습니다. 목표 독자·느낌·참고 선호·피할 요소·한글 글꼴·홈 섹션·모바일 중 필요한 것만 확인하며 의존 질문은 순서대로 진행합니다. 사실은 직접 조사합니다.
+
+사용자 결정이 필요한 항목은 답을 기다리고 독립 조사는 계속합니다. 필요한 합의가 되면 확정/제안/미정 디자인 브리프 → UI/UX 설계 → 구현·검수로 요청 범위에서 진행합니다. 작은 확정 수정·위임받은 선택에는 인터뷰를 강제하지 않으며 기존 답이나 최종 승인을 반복 요구하지 않습니다. 모든 분기를 끝없이 질문하지 않습니다. 새 역할·스킬 사본 없이 기존 grilling만 연결하며 frontend-design·Impeccable은 설치하지 않았습니다.
+
 - 공식 WordPress 4개: `WordPress/agent-skills`, `7374e6f1c913b3b02b25465d266d9c0e0a04fc96`.
 - SEO Audit v2.2.5: `coreyhaines31/marketingskills`, `1f837447b20bb6f0e72d87b80ece1c221c362c7d`.
 - UI UX Pro Max: `nextlevelbuilder/ui-ux-pro-max-skill`, `6ae86f61f520d6ca229d2f40e070410638c908c5`.

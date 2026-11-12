@@ -98,6 +98,7 @@
 - WordPress 팀 안내: `wordpress-team/README.md`, 공통 조율 스킬 `wordpress-team/.agents/skills/wordpress-delivery/SKILL.md`.
 - WordPress 역할: `wordpress-team/agents/wordpress-lead.md`, `wordpress-team/agents/wordpress-developer.md`, `wordpress-team/agents/site-analyst.md`, `wordpress-team/agents/seo-specialist.md`, `wordpress-team/agents/ui-designer.md`.
 - WordPress 외부 스킬: 중앙 원본 `hr-team/.agents/skills/` 아래 wp-project-triage·wp-block-themes·wp-plugin-development·wp-performance·seo-audit·ui-ux-pro-max를 필요한 분기에서만 직접 읽는다.
+- WordPress 디자인에 추가 확인이 필요하면 기존 `hr-team/.agents/skills/grilling/SKILL.md`를 재사용한다. 디자인 인터뷰의 질문·종료·인계 기준은 `wordpress-team/.agents/skills/wordpress-delivery/SKILL.md`를 따른다. 새 스킬이나 별도 인터뷰 에이전트를 중복 생성하지 않는다.
 
 역할 파일은 재사용 가능한 작업 지침이며 상시 실행되는 에이전트 등록을 의미하지 않는다.
 작업 시작 시 해당 역할과 스킬을 읽는다. 인사팀의 실질적인 탐색·제작 요청은 서브 에이전트 도구가 지원되면 담당 역할의 실제 서브 에이전트에게 위임한다. 각 위임에는 역할 파일, 스킬 경로, 목표, 입력, 산출물과 수정 범위를 전달한다.
@@ -118,6 +119,7 @@
 - WordPress 공식 원본의 compatibility 필드는 현재 OpenAI 검사와 다르므로 원본을 보존하고 wordpress-delivery에서 읽는다. 원문의 skills/... 실행 경로는 실제 중앙 설치 절대 경로로 해석하고 CWD는 확인한 대상 WordPress 코드 경로로 지정한다. 이 역할 저장소를 운영 사이트로 간주하지 않는다. UI 검색은 설치된 Python 스크립트를 사용하며 WordPress 전용 stack이 없으므로 일반 UI 원칙을 확인된 테마·빌더에 맞춰 적용한다.
 
 ## WordPress 개발팀의 작업 흐름
+- 디자인 방향에 필요한 사용자 선택이 비어 있으면 grilling 인터뷰를 진행한다. 기존 대화·확정 기획을 먼저 확인하고 UI 담당의 질문을 팀장이 한 번에 핵심 1~2개씩 묻는다. 필요한 답을 얻으면 확정/제안/미정을 구분한 디자인 브리프로 정리해 설계로 이어간다. 이미 확정된 작은 수정이나 위임된 선택에 인터뷰·재승인을 강제하지 않는다.
 - “워드프레스팀”, “WordPress 사이트 분석·개발·SEO·UI 개선” 요청은 WordPress 팀장에게 맡긴다. 가용한 사이트·코드·연결과 사용자 지시를 먼저 확인하고 부족한 핵심 정보만 질문한다. WordPress.com/자체 호스팅, 실제 버전, 블록/클래식 테마·빌더, 운영/개발 환경을 구분한다.
 - 팀장은 목표·완료 조건을 정리하고 실제 분석 → SEO/UI 개선안 → 개발 → 검증 순으로 필요한 담당을 실제 서브 에이전트 도구로 분배한다. 독립 조사만 병렬화하고 같은 파일·사이트 쓰기는 한 담당이 맡는다. 단순 요청은 직접 처리하며 도구가 없으면 원문·자료를 전달하거나 가능한 범위를 직접 수행하고 한계를 밝힌다.
 - 측정한 사실·가설·미확인을 구분한다. URL·검색 순위·방문자·Core Web Vitals·개선율을 만들지 않는다. 화면 테스트와 서버/DB 진단을 구분하고 wp-performance의 backend-only 가정 때문에 가능한 브라우저 검수를 생략하지 않는다.
